@@ -1,0 +1,28 @@
+---
+import GameMap from "../components/game/GameMap";
+
+const base = import.meta.env.BASE_URL; // "/jsow-site/"
+const topoUrl = `${base}quiz/europe.topo.json`;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Map — Flag Quiz</title>
+    <style>
+      html, body { margin: 0; height: 100%; }
+      body { background: #bfe0f4; }
+      .screen { height: 100dvh; }
+      /* The client island wrapper is inline by default; make it fill so the
+         map's height:100% resolves. */
+      .screen > astro-island { display: block; height: 100%; }
+    </style>
+  </head>
+  <body>
+    <div class="screen">
+      <!-- client:only because d3 zoom + DOM measurement are browser-only. -->
+      <GameMap topoUrl={topoUrl} client:only="react" />
+    </div>
+  </body>
+</html>

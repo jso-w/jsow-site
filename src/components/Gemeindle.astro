@@ -1,0 +1,311 @@
+---
+// src/components/Gemeindle.astro
+---
+
+<div class="game-wrapper">
+  <div class="aloha">
+    Errate die Schweizer Gemeinde mit 8 Buchstaben im Name!
+  </div>
+  <div class="alert-container" data-alert-container></div>
+  
+  <div data-guess-grid class="guess-grid">
+    {Array(48).fill(0).map(() => <div class="tile"></div>)}
+  </div>
+
+  <div data-keyboard class="keyboard">
+    <button class="key" data-key="Q">Q</button>
+    <button class="key" data-key="W">W</button>
+    <button class="key" data-key="E">E</button>
+    <button class="key" data-key="R">R</button>
+    <button class="key" data-key="T">T</button>
+    <button class="key" data-key="Z">Z</button>
+    <button class="key" data-key="U">U</button>
+    <button class="key" data-key="I">I</button>
+    <button class="key" data-key="O">O</button>
+    <button class="key" data-key="P">P</button>
+    <button class="key" data-key="Ü">Ü</button>
+    
+    <div class="space"></div>
+    <button class="key" data-key="A">A</button>
+    <button class="key" data-key="S">S</button>
+    <button class="key" data-key="D">D</button>
+    <button class="key" data-key="F">F</button>
+    <button class="key" data-key="G">G</button>
+    <button class="key" data-key="H">H</button>
+    <button class="key" data-key="J">J</button>
+    <button class="key" data-key="K">K</button>
+    <button class="key" data-key="L">L</button>
+    <button class="key" data-key="Ö">Ö</button>
+    <button class="key" data-key="Ä">Ä</button>
+    <div class="space"></div>
+    
+    <button data-enter class="key large">Enter</button>
+    <button class="key" data-key="Y">Y</button>
+    <button class="key" data-key="X">X</button>
+    <button class="key" data-key="C">C</button>
+    <button class="key" data-key="V">V</button>
+    <button class="key" data-key="B">B</button>
+    <button class="key" data-key="N">N</button>
+    <button class="key" data-key="M">M</button>
+    <button class="key" data-key="-">-</button>
+    <button data-delete class="key large">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+        <path fill="currentColor" d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14zm-11.59-2L14 13.41 17.59 17 19 15.59 15.41 12 19 8.41 17.59 7 14 10.59 10.41 7 9 8.41 12.59 12 9 15.59z"></path>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<style>
+  /* Override the default 5-column grid to 8 columns */
+  .guess-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
+    grid-template-columns: repeat(8, 4em); /* Changed to 8 columns */
+    grid-template-rows: repeat(6, 4em);
+    gap: .25em;
+    margin-bottom: 1em;
+  }
+  
+  .game-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+</style>
+
+<script>
+
+const target_words = [
+    "adliswil", "aefligen", "aegerten", "altbüron", "amriswil", "arisdorf",
+    "attalens", "attiswil", "avenches", "balsthal", "bedretto", "bellevue",
+    "bellikon", "bellmund", "bellwald", "beringen", "bettlach", "biberist",
+    "birrhard", "bofflens", "bolligen", "boltigen", "boncourt", "boningen",
+    "boniswil", "bournens", "boussens", "boécourt", "bretzwil", "brislach",
+    "brissago", "brittnau", "buchberg", "buchrain", "burgdorf", "bursinel",
+    "burtigny", "bussigny", "bussnang", "bäriswil", "bösingen", "büetigen",
+    "büttikon", "canobbio", "cartigny", "chamblon", "chamoson", "champéry",
+    "chevilly", "chevroux", "chexbres", "châtill-", "chéserex", "clarmont",
+    "coinsins", "commugny", "cormoret", "corseaux", "cossonay", "courroux",
+    "crassier", "cressier", "crissier", "crémines", "cuarnens", "cudrefin",
+    "cureglia", "daillens", "dardagny", "delémont", "develier", "dierikon",
+    "dietikon", "dintikon", "dottikon", "dotzigen", "duillier", "dulliken",
+    "dägerlen", "dällikon", "därligen", "düdingen", "eclépens", "ecublens",
+    "eggenwil", "egliswil", "egolzwil", "eichberg", "eischoll", "emmetten",
+    "endingen", "eptingen", "ermensee", "erschwil", "erstfeld", "ettingen",
+    "ettiswil", "evionnaz", "felsberg", "fisibach", "fribourg", "frutigen",
+    "gachnang", "galgenen", "gampelen", "genolier", "geuensee", "giornico",
+    "givisiez", "goumoens", "grandson", "grandval", "grenchen", "gruyères",
+    "gurzelen", "günsberg", "habsburg", "hedingen", "heimberg", "hellikon",
+    "hemmiken", "henggart", "hermance", "hersberg", "hochdorf", "hochwald",
+    "holziken", "horriwil", "hölstein", "hüttikon", "isenthal", "kallnach",
+    "kappelen", "kaufdorf", "kehrsatz", "kienberg", "klingnau", "klosters",
+    "koppigen", "kölliken", "küsnacht", "küttigen", "laconnex", "lausanne", "leimbach",
+    "lenzburg", "les bois", "leuggern", "leuzigen", "liesberg", "linescio",
+    "longirod", "lostallo", "lovatens", "lufingen", "lumnezia", "lüscherz",
+    "madiswil", "madulain", "magliaso", "martigny", "massagno", "mauensee",
+    "meikirch", "melchnau", "mellikon", "menziken", "molondin", "montagny",
+    "montreux", "movelier", "mägenwil", "mézières", "müllheim", "mülligen",
+    "neuenegg", "neuenhof", "neunforn", "novalles", "oberbalm", "oberbipp",
+    "oberburg", "oberdorf", "obergoms", "oberkulm", "oberriet", "oberrüti",
+    "oberthal", "obfelden", "oeschgen", "oltingen", "oppligen", "orselina",
+    "orsières", "ossingen", "paradiso", "pfaffnau", "plasselb", "pollegio",
+    "prangins", "pratteln", "presinge", "provence", "puplinge", "rebstein",
+    "reutigen", "rheineck", "riedholz", "rohrbach", "rothrist", "roveredo",
+    "russikon", "röschenz", "rüfenach", "rüschegg", "rüttenen", "saas-fee",
+    "sachseln", "safenwil", "saicourt", "salgesch", "salmsach", "scharans",
+    "schelten", "schenkon", "scheuren", "schluein", "schongau", "schüpfen",
+    "seftigen", "semsales", "sennwald", "siviriez", "speicher", "st-aubin",
+    "steinach", "stettlen", "subingen", "suscévaz", "tavannes", "tenniken",
+    "thalheim", "thayngen", "thundorf", "thörigen", "tramelan", "treyvaux",
+    "triengen", "trimbach", "tujetsch", "uebeschi", "uerkheim", "untervaz",
+    "valbirse", "valbroye", "vallorbe", "vechigen", "veltheim",
+    "vernayaz", "verzasca", "villeret", "villigen", "vuarrens", "vulliens",
+    "vérossaz", "walchwil", "wallbach", "wetzikon", "wildberg", "wiliberg",
+    "willisau", "windisch", "wolhusen", "wollerau", "wuppenau", "würenlos",
+    "zeneggen", "zofingen", "zollikon"
+];
+  
+  const WORD_LENGTH = 8;
+  const FLIP_ANIMATION_DURATION = 500;
+  const DANCE_ANIMATION_DURATION = 500;
+  
+  const keyboard = document.querySelector("[data-keyboard]");
+  const alertContainer = document.querySelector("[data-alert-container]");
+  const guessGrid = document.querySelector("[data-guess-grid]");
+  
+  // Pick a random target word for testing instead of daily offset
+  const targetWord = target_words[Math.floor(Math.random() * target_words.length)].toLowerCase();
+
+  startInteraction();
+
+  function startInteraction() {
+    document.addEventListener("click", handleMouseClick);
+    document.addEventListener("keydown", handleKeyPress);
+  }
+
+  function stopInteraction() {
+    document.removeEventListener("click", handleMouseClick);
+    document.removeEventListener("keydown", handleKeyPress);
+  }
+
+  function handleMouseClick(e) {
+    if (e.target.matches("[data-key]")) {
+      pressKey(e.target.dataset.key);
+      return;
+    }
+    if (e.target.matches("[data-enter]")) {
+      submitGuess();
+      return;
+    }
+    if (e.target.matches("[data-delete]") || e.target.closest("[data-delete]")) {
+      deleteKey();
+      return;
+    }
+  }
+
+  function handleKeyPress(e) {
+    if (e.key === "Enter") {
+      submitGuess();
+      return;
+    }
+    if (e.key === "Backspace" || e.key === "Delete") {
+      deleteKey();
+      return;
+    }
+    // Changed Regex to support A-Z, Ä, Ö, Ü, and hyphens (case-insensitive)
+    if (e.key.match(/^[a-zäöü\-]$/i)) {
+      pressKey(e.key);
+      return;
+    }
+  }
+
+  function pressKey(key) {
+    const activeTiles = getActiveTiles();
+    if (activeTiles.length >= WORD_LENGTH) return;
+    const nextTile = guessGrid.querySelector(":not([data-letter])");
+    nextTile.dataset.letter = key.toLowerCase();
+    nextTile.textContent = key;
+    nextTile.dataset.state = "active";
+  }
+
+  function deleteKey() {
+    const activeTiles = getActiveTiles();
+    const lastTile = activeTiles[activeTiles.length - 1];
+    if (lastTile == null) return;
+    lastTile.textContent = "";
+    delete lastTile.dataset.state;
+    delete lastTile.dataset.letter;
+  }
+
+  function submitGuess() {
+    const activeTiles = [...getActiveTiles()];
+    if (activeTiles.length !== WORD_LENGTH) {
+      showAlert("Not enough letters");
+      shakeTiles(activeTiles);
+      return;
+    }
+
+    const guess = activeTiles.reduce((word, tile) => {
+      return word + tile.dataset.letter;
+    }, "").toLowerCase();
+
+    // Verify against the full target_words array
+    if (!target_words.includes(guess)) {
+      showAlert("Gemeinde not in list");
+      shakeTiles(activeTiles);
+      return;
+    }
+
+    stopInteraction();
+    activeTiles.forEach((...params) => flipTile(...params, guess));
+  }
+
+  function flipTile(tile, index, array, guess) {
+    const letter = tile.dataset.letter;
+    // Updated selector to match lowercase Umlaute safely
+    const key = keyboard.querySelector(`[data-key="${letter.toUpperCase()}"]`) || keyboard.querySelector(`[data-key="${letter}"]`);
+    
+    setTimeout(() => {
+      tile.classList.add("flip");
+    }, (index * FLIP_ANIMATION_DURATION) / 2);
+
+    tile.addEventListener("transitionend", () => {
+      tile.classList.remove("flip");
+      if (targetWord[index] === letter) {
+        tile.dataset.state = "correct";
+        if (key) key.classList.add("correct");
+      } else if (targetWord.includes(letter)) {
+        tile.dataset.state = "wrong-location";
+        if (key) key.classList.add("wrong-location");
+      } else {
+        tile.dataset.state = "wrong";
+        if (key) key.classList.add("wrong");
+      }
+
+      if (index === array.length - 1) {
+        tile.addEventListener("transitionend", () => {
+          startInteraction();
+          checkWinLose(guess, array);
+        }, { once: true });
+      }
+    }, { once: true });
+  }
+
+  function getActiveTiles() {
+    return guessGrid.querySelectorAll('[data-state="active"]');
+  }
+
+  function showAlert(message, duration = 1000) {
+    const alert = document.createElement("div");
+    alert.textContent = message;
+    alert.classList.add("alert");
+    alertContainer.prepend(alert);
+    if (duration == null) return;
+
+    setTimeout(() => {
+      alert.classList.add("hide");
+      alert.addEventListener("transitionend", () => {
+        alert.remove();
+      });
+    }, duration);
+  }
+
+  function shakeTiles(tiles) {
+    tiles.forEach(tile => {
+      tile.classList.add("shake");
+      tile.addEventListener("animationend", () => {
+        tile.classList.remove("shake");
+      }, { once: true });
+    });
+  }
+
+  function checkWinLose(guess, tiles) {
+    if (guess === targetWord) {
+      showAlert("You got it! 🇨🇭", 5000);
+      danceTiles(tiles);
+      stopInteraction();
+      return;
+    }
+
+    const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])");
+    if (remainingTiles.length === 0) {
+      showAlert(`The municipality was: ${targetWord.toUpperCase()}`, null);
+      stopInteraction();
+    }
+  }
+
+  function danceTiles(tiles) {
+    tiles.forEach((tile, index) => {
+      setTimeout(() => {
+        tile.classList.add("dance");
+        tile.addEventListener("animationend", () => {
+          tile.classList.remove("dance");
+        }, { once: true });
+      }, (index * DANCE_ANIMATION_DURATION) / 5);
+    });
+  }
+</script>

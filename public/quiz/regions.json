@@ -1,0 +1,6384 @@
+[
+  {
+    "id": "AL-berat",
+    "name": "Berat",
+    "country": "AL",
+    "firstLetter": "B",
+    "neighbors": [
+      "AL-elbasan",
+      "AL-fier",
+      "AL-gjirokaster",
+      "AL-korce"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-diber",
+    "name": "Dibër",
+    "country": "AL",
+    "firstLetter": "D",
+    "neighbors": [
+      "AL-durres",
+      "AL-elbasan",
+      "AL-kukes",
+      "AL-lezhe",
+      "AL-tirane"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-durres",
+    "name": "Durrës",
+    "country": "AL",
+    "firstLetter": "D",
+    "neighbors": [
+      "AL-diber",
+      "AL-lezhe",
+      "AL-tirane"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-elbasan",
+    "name": "Elbasan",
+    "country": "AL",
+    "firstLetter": "E",
+    "neighbors": [
+      "AL-berat",
+      "AL-diber",
+      "AL-fier",
+      "AL-korce",
+      "AL-tirane"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-fier",
+    "name": "Fier",
+    "country": "AL",
+    "firstLetter": "F",
+    "neighbors": [
+      "AL-berat",
+      "AL-elbasan",
+      "AL-gjirokaster",
+      "AL-tirane",
+      "AL-vlore"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-gjirokaster",
+    "name": "Gjirokastër",
+    "country": "AL",
+    "firstLetter": "G",
+    "neighbors": [
+      "AL-berat",
+      "AL-fier",
+      "AL-korce",
+      "AL-vlore",
+      "GR-epirus"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-korce",
+    "name": "Korçë",
+    "country": "AL",
+    "firstLetter": "K",
+    "neighbors": [
+      "AL-berat",
+      "AL-elbasan",
+      "AL-gjirokaster",
+      "GR-epirus",
+      "GR-macedonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-kukes",
+    "name": "Kukës",
+    "country": "AL",
+    "firstLetter": "K",
+    "neighbors": [
+      "AL-diber",
+      "AL-lezhe",
+      "AL-shkoder"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-lezhe",
+    "name": "Lezhë",
+    "country": "AL",
+    "firstLetter": "L",
+    "neighbors": [
+      "AL-diber",
+      "AL-durres",
+      "AL-kukes",
+      "AL-shkoder"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-shkoder",
+    "name": "Shkodër",
+    "country": "AL",
+    "firstLetter": "S",
+    "neighbors": [
+      "AL-kukes",
+      "AL-lezhe"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-tirane",
+    "name": "Tiranë",
+    "country": "AL",
+    "firstLetter": "T",
+    "neighbors": [
+      "AL-diber",
+      "AL-durres",
+      "AL-elbasan",
+      "AL-fier"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AL-vlore",
+    "name": "Vlorë",
+    "country": "AL",
+    "firstLetter": "V",
+    "neighbors": [
+      "AL-fier",
+      "AL-gjirokaster",
+      "GR-epirus"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-burgenland",
+    "name": "Burgenland",
+    "country": "AT",
+    "firstLetter": "B",
+    "neighbors": [
+      "AT-lower-austria",
+      "AT-styria",
+      "HU-gyor-moson-sopron",
+      "HU-vas",
+      "SK-bratislavsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-carinthia",
+    "name": "Carinthia",
+    "country": "AT",
+    "firstLetter": "C",
+    "neighbors": [
+      "AT-salzburg",
+      "AT-styria",
+      "AT-tyrol",
+      "IT-friuli-venezia-giulia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-lower-austria",
+    "name": "Lower Austria",
+    "country": "AT",
+    "firstLetter": "L",
+    "neighbors": [
+      "AT-burgenland",
+      "AT-styria",
+      "AT-upper-austria",
+      "AT-vienna",
+      "CZ-jihocesky",
+      "CZ-jihomoravsky",
+      "SK-bratislavsky",
+      "SK-trnavsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-salzburg",
+    "name": "Salzburg",
+    "country": "AT",
+    "firstLetter": "S",
+    "neighbors": [
+      "AT-carinthia",
+      "AT-styria",
+      "AT-tyrol",
+      "AT-upper-austria",
+      "DE-bavaria",
+      "IT-trentino-alto-adige"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-styria",
+    "name": "Styria",
+    "country": "AT",
+    "firstLetter": "S",
+    "neighbors": [
+      "AT-burgenland",
+      "AT-carinthia",
+      "AT-lower-austria",
+      "AT-salzburg",
+      "AT-upper-austria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-tyrol",
+    "name": "Tyrol",
+    "country": "AT",
+    "firstLetter": "T",
+    "neighbors": [
+      "AT-carinthia",
+      "AT-salzburg",
+      "AT-vorarlberg",
+      "CH-graubunden",
+      "DE-bavaria",
+      "IT-trentino-alto-adige",
+      "IT-veneto"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-upper-austria",
+    "name": "Upper Austria",
+    "country": "AT",
+    "firstLetter": "U",
+    "neighbors": [
+      "AT-lower-austria",
+      "AT-salzburg",
+      "AT-styria",
+      "CZ-jihocesky",
+      "DE-bavaria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-vienna",
+    "name": "Vienna",
+    "country": "AT",
+    "firstLetter": "V",
+    "neighbors": [
+      "AT-lower-austria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "AT-vorarlberg",
+    "name": "Vorarlberg",
+    "country": "AT",
+    "firstLetter": "V",
+    "neighbors": [
+      "AT-tyrol",
+      "CH-graubunden",
+      "CH-sankt-gallen",
+      "CH-thurgau",
+      "DE-baden-wurttemberg",
+      "DE-bavaria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BA-brcko-district",
+    "name": "Brčko District",
+    "country": "BA",
+    "firstLetter": "B",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "BA-republika-srpska",
+      "HR-vukovar-srijem"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BA-federation-of-bosnia-and-herzegovina",
+    "name": "Federation of Bosnia and Herzegovina",
+    "country": "BA",
+    "firstLetter": "F",
+    "neighbors": [
+      "BA-brcko-district",
+      "BA-republika-srpska",
+      "HR-brod-posavina",
+      "HR-dubrovnik-neretva",
+      "HR-karlovac",
+      "HR-lika-senj",
+      "HR-sibenik-knin",
+      "HR-sisak-moslavina",
+      "HR-split-dalmatia",
+      "HR-zadar"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BA-republika-srpska",
+    "name": "Republika Srpska",
+    "country": "BA",
+    "firstLetter": "R",
+    "neighbors": [
+      "BA-brcko-district",
+      "BA-federation-of-bosnia-and-herzegovina",
+      "HR-brod-posavina",
+      "HR-dubrovnik-neretva",
+      "HR-sisak-moslavina",
+      "HR-vukovar-srijem"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BE-brussels-capital-region",
+    "name": "Brussels-Capital Region",
+    "country": "BE",
+    "firstLetter": "B",
+    "neighbors": [
+      "BE-flanders"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BE-flanders",
+    "name": "Flanders",
+    "country": "BE",
+    "firstLetter": "F",
+    "neighbors": [
+      "BE-brussels-capital-region",
+      "BE-wallonia",
+      "FR-hauts-de-france",
+      "NL-limburg",
+      "NL-noord-brabant",
+      "NL-zeeland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BE-wallonia",
+    "name": "Wallonia",
+    "country": "BE",
+    "firstLetter": "W",
+    "neighbors": [
+      "BE-flanders",
+      "DE-north-rhine-westphalia",
+      "DE-rhineland-palatinate",
+      "FR-grand-est",
+      "FR-hauts-de-france",
+      "LU-capellen",
+      "LU-clervaux",
+      "LU-esch-sur-alzette",
+      "LU-redange",
+      "LU-wiltz",
+      "NL-limburg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-blagoevgrad",
+    "name": "Blagoevgrad",
+    "country": "BG",
+    "firstLetter": "B",
+    "neighbors": [
+      "BG-kyustendil",
+      "BG-pazardzhik",
+      "BG-smolyan",
+      "BG-sofia-grad",
+      "GR-macedonia",
+      "GR-thrace"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-burgas",
+    "name": "Burgas",
+    "country": "BG",
+    "firstLetter": "B",
+    "neighbors": [
+      "BG-shumen",
+      "BG-sliven",
+      "BG-varna",
+      "BG-yambol"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-dobrich",
+    "name": "Dobrich",
+    "country": "BG",
+    "firstLetter": "D",
+    "neighbors": [
+      "BG-shumen",
+      "BG-silistra",
+      "BG-varna",
+      "RO-constanta"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-gabrovo",
+    "name": "Gabrovo",
+    "country": "BG",
+    "firstLetter": "G",
+    "neighbors": [
+      "BG-lovech",
+      "BG-stara-zagora",
+      "BG-veliko-tarnovo"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-haskovo",
+    "name": "Haskovo",
+    "country": "BG",
+    "firstLetter": "H",
+    "neighbors": [
+      "BG-kardzhali",
+      "BG-plovdiv",
+      "BG-stara-zagora",
+      "BG-yambol",
+      "GR-thrace"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-kardzhali",
+    "name": "Kardzhali",
+    "country": "BG",
+    "firstLetter": "K",
+    "neighbors": [
+      "BG-haskovo",
+      "BG-plovdiv",
+      "BG-smolyan",
+      "GR-thrace"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-kyustendil",
+    "name": "Kyustendil",
+    "country": "BG",
+    "firstLetter": "K",
+    "neighbors": [
+      "BG-blagoevgrad",
+      "BG-pernik",
+      "BG-sofia-grad"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-lovech",
+    "name": "Lovech",
+    "country": "BG",
+    "firstLetter": "L",
+    "neighbors": [
+      "BG-gabrovo",
+      "BG-pleven",
+      "BG-plovdiv",
+      "BG-sofia-grad",
+      "BG-veliko-tarnovo",
+      "BG-vratsa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-montana",
+    "name": "Montana",
+    "country": "BG",
+    "firstLetter": "M",
+    "neighbors": [
+      "BG-sofia-grad",
+      "BG-vidin",
+      "BG-vratsa",
+      "RO-dolj"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-pazardzhik",
+    "name": "Pazardzhik",
+    "country": "BG",
+    "firstLetter": "P",
+    "neighbors": [
+      "BG-blagoevgrad",
+      "BG-plovdiv",
+      "BG-smolyan",
+      "BG-sofia-grad"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-pernik",
+    "name": "Pernik",
+    "country": "BG",
+    "firstLetter": "P",
+    "neighbors": [
+      "BG-kyustendil",
+      "BG-sofia",
+      "BG-sofia-grad"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-pleven",
+    "name": "Pleven",
+    "country": "BG",
+    "firstLetter": "P",
+    "neighbors": [
+      "BG-lovech",
+      "BG-veliko-tarnovo",
+      "BG-vratsa",
+      "RO-olt",
+      "RO-teleorman"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-plovdiv",
+    "name": "Plovdiv",
+    "country": "BG",
+    "firstLetter": "P",
+    "neighbors": [
+      "BG-haskovo",
+      "BG-kardzhali",
+      "BG-lovech",
+      "BG-pazardzhik",
+      "BG-smolyan",
+      "BG-sofia-grad",
+      "BG-stara-zagora"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-razgrad",
+    "name": "Razgrad",
+    "country": "BG",
+    "firstLetter": "R",
+    "neighbors": [
+      "BG-ruse",
+      "BG-shumen",
+      "BG-silistra",
+      "BG-targovishte"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-ruse",
+    "name": "Ruse",
+    "country": "BG",
+    "firstLetter": "R",
+    "neighbors": [
+      "BG-razgrad",
+      "BG-silistra",
+      "BG-targovishte",
+      "BG-veliko-tarnovo",
+      "RO-giurgiu",
+      "RO-teleorman"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-shumen",
+    "name": "Shumen",
+    "country": "BG",
+    "firstLetter": "S",
+    "neighbors": [
+      "BG-burgas",
+      "BG-dobrich",
+      "BG-razgrad",
+      "BG-silistra",
+      "BG-sliven",
+      "BG-targovishte",
+      "BG-varna"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-silistra",
+    "name": "Silistra",
+    "country": "BG",
+    "firstLetter": "S",
+    "neighbors": [
+      "BG-dobrich",
+      "BG-razgrad",
+      "BG-ruse",
+      "BG-shumen",
+      "RO-calarasi",
+      "RO-constanta",
+      "RO-giurgiu"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-sliven",
+    "name": "Sliven",
+    "country": "BG",
+    "firstLetter": "S",
+    "neighbors": [
+      "BG-burgas",
+      "BG-shumen",
+      "BG-stara-zagora",
+      "BG-targovishte",
+      "BG-veliko-tarnovo",
+      "BG-yambol"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-smolyan",
+    "name": "Smolyan",
+    "country": "BG",
+    "firstLetter": "S",
+    "neighbors": [
+      "BG-blagoevgrad",
+      "BG-kardzhali",
+      "BG-pazardzhik",
+      "BG-plovdiv",
+      "GR-thrace"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-sofia",
+    "name": "Sofia",
+    "country": "BG",
+    "firstLetter": "S",
+    "neighbors": [
+      "BG-pernik",
+      "BG-sofia-grad"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-sofia-grad",
+    "name": "Sofia-Grad",
+    "country": "BG",
+    "firstLetter": "S",
+    "neighbors": [
+      "BG-blagoevgrad",
+      "BG-kyustendil",
+      "BG-lovech",
+      "BG-montana",
+      "BG-pazardzhik",
+      "BG-pernik",
+      "BG-plovdiv",
+      "BG-sofia",
+      "BG-vratsa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-stara-zagora",
+    "name": "Stara Zagora",
+    "country": "BG",
+    "firstLetter": "S",
+    "neighbors": [
+      "BG-gabrovo",
+      "BG-haskovo",
+      "BG-plovdiv",
+      "BG-sliven",
+      "BG-veliko-tarnovo",
+      "BG-yambol"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-targovishte",
+    "name": "Targovishte",
+    "country": "BG",
+    "firstLetter": "T",
+    "neighbors": [
+      "BG-razgrad",
+      "BG-ruse",
+      "BG-shumen",
+      "BG-sliven",
+      "BG-veliko-tarnovo"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-varna",
+    "name": "Varna",
+    "country": "BG",
+    "firstLetter": "V",
+    "neighbors": [
+      "BG-burgas",
+      "BG-dobrich",
+      "BG-shumen"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-veliko-tarnovo",
+    "name": "Veliko Tarnovo",
+    "country": "BG",
+    "firstLetter": "V",
+    "neighbors": [
+      "BG-gabrovo",
+      "BG-lovech",
+      "BG-pleven",
+      "BG-ruse",
+      "BG-sliven",
+      "BG-stara-zagora",
+      "BG-targovishte",
+      "RO-teleorman"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-vidin",
+    "name": "Vidin",
+    "country": "BG",
+    "firstLetter": "V",
+    "neighbors": [
+      "BG-montana",
+      "RO-dolj",
+      "RO-mehedinti"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-vratsa",
+    "name": "Vratsa",
+    "country": "BG",
+    "firstLetter": "V",
+    "neighbors": [
+      "BG-lovech",
+      "BG-montana",
+      "BG-pleven",
+      "BG-sofia-grad",
+      "RO-dolj",
+      "RO-olt"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BG-yambol",
+    "name": "Yambol",
+    "country": "BG",
+    "firstLetter": "Y",
+    "neighbors": [
+      "BG-burgas",
+      "BG-haskovo",
+      "BG-sliven",
+      "BG-stara-zagora"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BY-brest",
+    "name": "Brest",
+    "country": "BY",
+    "firstLetter": "B",
+    "neighbors": [
+      "BY-homyel",
+      "BY-hrodna",
+      "BY-minsk",
+      "PL-lubelskie",
+      "PL-podlaskie",
+      "UA-rivne",
+      "UA-volyn"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BY-homyel",
+    "name": "Homyel'",
+    "country": "BY",
+    "firstLetter": "H",
+    "neighbors": [
+      "BY-brest",
+      "BY-mahilyow",
+      "BY-minsk",
+      "UA-chernihiv",
+      "UA-kyiv",
+      "UA-rivne",
+      "UA-zhytomyr"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BY-hrodna",
+    "name": "Hrodna",
+    "country": "BY",
+    "firstLetter": "H",
+    "neighbors": [
+      "BY-brest",
+      "BY-minsk",
+      "BY-vitsyebsk",
+      "LT-alytus",
+      "LT-vilnius",
+      "PL-podlaskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BY-mahilyow",
+    "name": "Mahilyow",
+    "country": "BY",
+    "firstLetter": "M",
+    "neighbors": [
+      "BY-homyel",
+      "BY-minsk",
+      "BY-vitsyebsk"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BY-minsk",
+    "name": "Minsk",
+    "country": "BY",
+    "firstLetter": "M",
+    "neighbors": [
+      "BY-brest",
+      "BY-homyel",
+      "BY-hrodna",
+      "BY-mahilyow",
+      "BY-vitsyebsk"
+    ],
+    "flag": null
+  },
+  {
+    "id": "BY-minsk-city",
+    "name": "Minsk City",
+    "country": "BY",
+    "firstLetter": "M",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "BY-vitsyebsk",
+    "name": "Vitsyebsk",
+    "country": "BY",
+    "firstLetter": "V",
+    "neighbors": [
+      "BY-hrodna",
+      "BY-mahilyow",
+      "BY-minsk",
+      "LT-utena",
+      "LT-vilnius"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-aargau",
+    "name": "Aargau",
+    "country": "CH",
+    "firstLetter": "A",
+    "neighbors": [
+      "CH-basel-landschaft",
+      "CH-bern",
+      "CH-luzern",
+      "CH-solothurn",
+      "CH-zug",
+      "CH-zurich",
+      "DE-baden-wurttemberg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-appenzell-ausser-rhoden",
+    "name": "Appenzell Ausser-Rhoden",
+    "country": "CH",
+    "firstLetter": "A",
+    "neighbors": [
+      "CH-appenzell-inner-rhoden",
+      "CH-sankt-gallen"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-appenzell-inner-rhoden",
+    "name": "Appenzell Inner-Rhoden",
+    "country": "CH",
+    "firstLetter": "A",
+    "neighbors": [
+      "CH-appenzell-ausser-rhoden",
+      "CH-sankt-gallen"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-basel-landschaft",
+    "name": "Basel-Landschaft",
+    "country": "CH",
+    "firstLetter": "B",
+    "neighbors": [
+      "CH-aargau",
+      "CH-basel-stadt",
+      "CH-jura",
+      "CH-solothurn",
+      "DE-baden-wurttemberg",
+      "FR-grand-est"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-basel-stadt",
+    "name": "Basel-Stadt",
+    "country": "CH",
+    "firstLetter": "B",
+    "neighbors": [
+      "CH-basel-landschaft",
+      "DE-baden-wurttemberg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-bern",
+    "name": "Bern",
+    "country": "CH",
+    "firstLetter": "B",
+    "neighbors": [
+      "CH-aargau",
+      "CH-fribourg",
+      "CH-jura",
+      "CH-luzern",
+      "CH-neuchatel",
+      "CH-nidwalden",
+      "CH-obwalden",
+      "CH-solothurn",
+      "CH-uri",
+      "CH-valais",
+      "CH-vaud",
+      "FR-grand-est"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-fribourg",
+    "name": "Fribourg",
+    "country": "CH",
+    "firstLetter": "F",
+    "neighbors": [
+      "CH-bern",
+      "CH-neuchatel",
+      "CH-vaud"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-geneve",
+    "name": "Genève",
+    "country": "CH",
+    "firstLetter": "G",
+    "neighbors": [
+      "CH-vaud",
+      "FR-auvergne-rhone-alpes"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-glarus",
+    "name": "Glarus",
+    "country": "CH",
+    "firstLetter": "G",
+    "neighbors": [
+      "CH-graubunden",
+      "CH-sankt-gallen",
+      "CH-schwyz",
+      "CH-uri"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-graubunden",
+    "name": "Graubünden",
+    "country": "CH",
+    "firstLetter": "G",
+    "neighbors": [
+      "AT-tyrol",
+      "AT-vorarlberg",
+      "CH-glarus",
+      "CH-sankt-gallen",
+      "CH-ticino",
+      "CH-uri",
+      "IT-lombardia",
+      "IT-trentino-alto-adige"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-jura",
+    "name": "Jura",
+    "country": "CH",
+    "firstLetter": "J",
+    "neighbors": [
+      "CH-basel-landschaft",
+      "CH-bern",
+      "CH-neuchatel",
+      "CH-solothurn",
+      "FR-bourgogne-franche-comte",
+      "FR-grand-est"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-luzern",
+    "name": "Luzern",
+    "country": "CH",
+    "firstLetter": "L",
+    "neighbors": [
+      "CH-aargau",
+      "CH-bern",
+      "CH-nidwalden",
+      "CH-obwalden",
+      "CH-schwyz",
+      "CH-zug"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-neuchatel",
+    "name": "Neuchâtel",
+    "country": "CH",
+    "firstLetter": "N",
+    "neighbors": [
+      "CH-bern",
+      "CH-fribourg",
+      "CH-jura",
+      "CH-vaud",
+      "FR-bourgogne-franche-comte"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-nidwalden",
+    "name": "Nidwalden",
+    "country": "CH",
+    "firstLetter": "N",
+    "neighbors": [
+      "CH-bern",
+      "CH-luzern",
+      "CH-obwalden",
+      "CH-schwyz",
+      "CH-uri"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-obwalden",
+    "name": "Obwalden",
+    "country": "CH",
+    "firstLetter": "O",
+    "neighbors": [
+      "CH-bern",
+      "CH-luzern",
+      "CH-nidwalden",
+      "CH-uri"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-sankt-gallen",
+    "name": "Sankt Gallen",
+    "country": "CH",
+    "firstLetter": "S",
+    "neighbors": [
+      "AT-vorarlberg",
+      "CH-appenzell-ausser-rhoden",
+      "CH-appenzell-inner-rhoden",
+      "CH-glarus",
+      "CH-graubunden",
+      "CH-schwyz",
+      "CH-thurgau",
+      "CH-zurich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-schaffhausen",
+    "name": "Schaffhausen",
+    "country": "CH",
+    "firstLetter": "S",
+    "neighbors": [
+      "CH-thurgau",
+      "CH-zurich",
+      "DE-baden-wurttemberg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-schwyz",
+    "name": "Schwyz",
+    "country": "CH",
+    "firstLetter": "S",
+    "neighbors": [
+      "CH-glarus",
+      "CH-luzern",
+      "CH-nidwalden",
+      "CH-sankt-gallen",
+      "CH-uri",
+      "CH-zug",
+      "CH-zurich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-solothurn",
+    "name": "Solothurn",
+    "country": "CH",
+    "firstLetter": "S",
+    "neighbors": [
+      "CH-aargau",
+      "CH-basel-landschaft",
+      "CH-bern",
+      "CH-jura",
+      "FR-grand-est"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-thurgau",
+    "name": "Thurgau",
+    "country": "CH",
+    "firstLetter": "T",
+    "neighbors": [
+      "AT-vorarlberg",
+      "CH-sankt-gallen",
+      "CH-schaffhausen",
+      "CH-zurich",
+      "DE-baden-wurttemberg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-ticino",
+    "name": "Ticino",
+    "country": "CH",
+    "firstLetter": "T",
+    "neighbors": [
+      "CH-graubunden",
+      "CH-uri",
+      "CH-valais",
+      "IT-lombardia",
+      "IT-piemonte"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-uri",
+    "name": "Uri",
+    "country": "CH",
+    "firstLetter": "U",
+    "neighbors": [
+      "CH-bern",
+      "CH-glarus",
+      "CH-graubunden",
+      "CH-nidwalden",
+      "CH-obwalden",
+      "CH-schwyz",
+      "CH-ticino",
+      "CH-valais"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-valais",
+    "name": "Valais",
+    "country": "CH",
+    "firstLetter": "V",
+    "neighbors": [
+      "CH-bern",
+      "CH-ticino",
+      "CH-uri",
+      "CH-vaud",
+      "FR-auvergne-rhone-alpes",
+      "IT-piemonte",
+      "IT-valle-d-aosta"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-vaud",
+    "name": "Vaud",
+    "country": "CH",
+    "firstLetter": "V",
+    "neighbors": [
+      "CH-bern",
+      "CH-fribourg",
+      "CH-geneve",
+      "CH-neuchatel",
+      "CH-valais",
+      "FR-auvergne-rhone-alpes",
+      "FR-bourgogne-franche-comte"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-zug",
+    "name": "Zug",
+    "country": "CH",
+    "firstLetter": "Z",
+    "neighbors": [
+      "CH-aargau",
+      "CH-luzern",
+      "CH-schwyz",
+      "CH-zurich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CH-zurich",
+    "name": "Zürich",
+    "country": "CH",
+    "firstLetter": "Z",
+    "neighbors": [
+      "CH-aargau",
+      "CH-sankt-gallen",
+      "CH-schaffhausen",
+      "CH-schwyz",
+      "CH-thurgau",
+      "CH-zug",
+      "DE-baden-wurttemberg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-jihocesky",
+    "name": "Jihočeský",
+    "country": "CZ",
+    "firstLetter": "J",
+    "neighbors": [
+      "AT-lower-austria",
+      "AT-upper-austria",
+      "CZ-jihomoravsky",
+      "CZ-plzensky",
+      "CZ-stredocesky",
+      "CZ-vysocina",
+      "DE-bavaria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-jihomoravsky",
+    "name": "Jihomoravský",
+    "country": "CZ",
+    "firstLetter": "J",
+    "neighbors": [
+      "AT-lower-austria",
+      "CZ-jihocesky",
+      "CZ-olomoucky",
+      "CZ-pardubicky",
+      "CZ-vysocina",
+      "CZ-zlinsky",
+      "SK-trenciansky",
+      "SK-trnavsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-karlovarsky",
+    "name": "Karlovarský",
+    "country": "CZ",
+    "firstLetter": "K",
+    "neighbors": [
+      "CZ-plzensky",
+      "CZ-ustecky",
+      "DE-bavaria",
+      "DE-saxony"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-kralovehradecky",
+    "name": "Královéhradecký",
+    "country": "CZ",
+    "firstLetter": "K",
+    "neighbors": [
+      "CZ-liberecky",
+      "CZ-pardubicky",
+      "CZ-stredocesky",
+      "PL-dolnoslaskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-liberecky",
+    "name": "Liberecký",
+    "country": "CZ",
+    "firstLetter": "L",
+    "neighbors": [
+      "CZ-kralovehradecky",
+      "CZ-stredocesky",
+      "CZ-ustecky",
+      "DE-saxony",
+      "PL-dolnoslaskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-moravskoslezsky",
+    "name": "Moravskoslezský",
+    "country": "CZ",
+    "firstLetter": "M",
+    "neighbors": [
+      "CZ-olomoucky",
+      "CZ-zlinsky",
+      "PL-opolskie",
+      "PL-slaskie",
+      "SK-zilinsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-olomoucky",
+    "name": "Olomoucký",
+    "country": "CZ",
+    "firstLetter": "O",
+    "neighbors": [
+      "CZ-jihomoravsky",
+      "CZ-moravskoslezsky",
+      "CZ-pardubicky",
+      "CZ-zlinsky",
+      "PL-dolnoslaskie",
+      "PL-opolskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-pardubicky",
+    "name": "Pardubický",
+    "country": "CZ",
+    "firstLetter": "P",
+    "neighbors": [
+      "CZ-jihomoravsky",
+      "CZ-kralovehradecky",
+      "CZ-olomoucky",
+      "CZ-stredocesky",
+      "CZ-vysocina",
+      "PL-dolnoslaskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-plzensky",
+    "name": "Plzeňský",
+    "country": "CZ",
+    "firstLetter": "P",
+    "neighbors": [
+      "CZ-jihocesky",
+      "CZ-karlovarsky",
+      "CZ-stredocesky",
+      "CZ-ustecky",
+      "DE-bavaria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-praha",
+    "name": "Praha",
+    "country": "CZ",
+    "firstLetter": "P",
+    "neighbors": [
+      "CZ-stredocesky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-stredocesky",
+    "name": "Středočeský",
+    "country": "CZ",
+    "firstLetter": "S",
+    "neighbors": [
+      "CZ-jihocesky",
+      "CZ-kralovehradecky",
+      "CZ-liberecky",
+      "CZ-pardubicky",
+      "CZ-plzensky",
+      "CZ-praha",
+      "CZ-ustecky",
+      "CZ-vysocina"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-ustecky",
+    "name": "Ústecký",
+    "country": "CZ",
+    "firstLetter": "U",
+    "neighbors": [
+      "CZ-karlovarsky",
+      "CZ-liberecky",
+      "CZ-plzensky",
+      "CZ-stredocesky",
+      "DE-saxony"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-vysocina",
+    "name": "Vysočina",
+    "country": "CZ",
+    "firstLetter": "V",
+    "neighbors": [
+      "CZ-jihocesky",
+      "CZ-jihomoravsky",
+      "CZ-pardubicky",
+      "CZ-stredocesky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "CZ-zlinsky",
+    "name": "Zlínský",
+    "country": "CZ",
+    "firstLetter": "Z",
+    "neighbors": [
+      "CZ-jihomoravsky",
+      "CZ-moravskoslezsky",
+      "CZ-olomoucky",
+      "SK-trenciansky",
+      "SK-zilinsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-baden-wurttemberg",
+    "name": "Baden-Württemberg",
+    "country": "DE",
+    "firstLetter": "B",
+    "neighbors": [
+      "AT-vorarlberg",
+      "CH-aargau",
+      "CH-basel-landschaft",
+      "CH-basel-stadt",
+      "CH-schaffhausen",
+      "CH-thurgau",
+      "CH-zurich",
+      "DE-bavaria",
+      "DE-hesse",
+      "DE-rhineland-palatinate",
+      "FR-grand-est"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-bavaria",
+    "name": "Bavaria",
+    "country": "DE",
+    "firstLetter": "B",
+    "neighbors": [
+      "AT-salzburg",
+      "AT-tyrol",
+      "AT-upper-austria",
+      "AT-vorarlberg",
+      "CZ-jihocesky",
+      "CZ-karlovarsky",
+      "CZ-plzensky",
+      "DE-baden-wurttemberg",
+      "DE-hesse",
+      "DE-saxony",
+      "DE-thuringia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-berlin",
+    "name": "Berlin",
+    "country": "DE",
+    "firstLetter": "B",
+    "neighbors": [
+      "DE-brandenburg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-brandenburg",
+    "name": "Brandenburg",
+    "country": "DE",
+    "firstLetter": "B",
+    "neighbors": [
+      "DE-berlin",
+      "DE-lower-saxony",
+      "DE-mecklenburg-western-pomerania",
+      "DE-sachsen-anhalt",
+      "DE-saxony",
+      "PL-lubuskie",
+      "PL-zachodniopomorskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-bremen",
+    "name": "Bremen",
+    "country": "DE",
+    "firstLetter": "B",
+    "neighbors": [
+      "DE-lower-saxony"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-hamburg",
+    "name": "Hamburg",
+    "country": "DE",
+    "firstLetter": "H",
+    "neighbors": [
+      "DE-lower-saxony",
+      "DE-schleswig-holstein"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-hesse",
+    "name": "Hesse",
+    "country": "DE",
+    "firstLetter": "H",
+    "neighbors": [
+      "DE-baden-wurttemberg",
+      "DE-bavaria",
+      "DE-lower-saxony",
+      "DE-north-rhine-westphalia",
+      "DE-rhineland-palatinate",
+      "DE-thuringia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-lower-saxony",
+    "name": "Lower Saxony",
+    "country": "DE",
+    "firstLetter": "L",
+    "neighbors": [
+      "DE-brandenburg",
+      "DE-bremen",
+      "DE-hamburg",
+      "DE-hesse",
+      "DE-mecklenburg-western-pomerania",
+      "DE-north-rhine-westphalia",
+      "DE-sachsen-anhalt",
+      "DE-schleswig-holstein",
+      "DE-thuringia",
+      "NL-drenthe",
+      "NL-groningen",
+      "NL-overijssel"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-mecklenburg-western-pomerania",
+    "name": "Mecklenburg-Western Pomerania",
+    "country": "DE",
+    "firstLetter": "M",
+    "neighbors": [
+      "DE-brandenburg",
+      "DE-lower-saxony",
+      "DE-schleswig-holstein",
+      "PL-zachodniopomorskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-north-rhine-westphalia",
+    "name": "North Rhine-Westphalia",
+    "country": "DE",
+    "firstLetter": "N",
+    "neighbors": [
+      "BE-wallonia",
+      "DE-hesse",
+      "DE-lower-saxony",
+      "DE-rhineland-palatinate",
+      "NL-gelderland",
+      "NL-limburg",
+      "NL-overijssel"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-rhineland-palatinate",
+    "name": "Rhineland-Palatinate",
+    "country": "DE",
+    "firstLetter": "R",
+    "neighbors": [
+      "BE-wallonia",
+      "DE-baden-wurttemberg",
+      "DE-hesse",
+      "DE-north-rhine-westphalia",
+      "DE-saarland",
+      "FR-grand-est",
+      "LU-echternach",
+      "LU-grevenmacher",
+      "LU-remich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-saarland",
+    "name": "Saarland",
+    "country": "DE",
+    "firstLetter": "S",
+    "neighbors": [
+      "DE-rhineland-palatinate",
+      "FR-grand-est"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-sachsen-anhalt",
+    "name": "Sachsen-Anhalt",
+    "country": "DE",
+    "firstLetter": "S",
+    "neighbors": [
+      "DE-brandenburg",
+      "DE-lower-saxony",
+      "DE-saxony",
+      "DE-thuringia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-saxony",
+    "name": "Saxony",
+    "country": "DE",
+    "firstLetter": "S",
+    "neighbors": [
+      "CZ-karlovarsky",
+      "CZ-liberecky",
+      "CZ-ustecky",
+      "DE-bavaria",
+      "DE-brandenburg",
+      "DE-sachsen-anhalt",
+      "DE-thuringia",
+      "PL-dolnoslaskie",
+      "PL-lubuskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-schleswig-holstein",
+    "name": "Schleswig-Holstein",
+    "country": "DE",
+    "firstLetter": "S",
+    "neighbors": [
+      "DE-hamburg",
+      "DE-lower-saxony",
+      "DE-mecklenburg-western-pomerania"
+    ],
+    "flag": null
+  },
+  {
+    "id": "DE-thuringia",
+    "name": "Thuringia",
+    "country": "DE",
+    "firstLetter": "T",
+    "neighbors": [
+      "DE-bavaria",
+      "DE-hesse",
+      "DE-lower-saxony",
+      "DE-sachsen-anhalt",
+      "DE-saxony"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-harjumaa",
+    "name": "Harjumaa",
+    "country": "EE",
+    "firstLetter": "H",
+    "neighbors": [
+      "EE-jarvamaa",
+      "EE-laane-virumaa",
+      "EE-laanemaa",
+      "EE-raplamaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-hiiumaa",
+    "name": "Hiiumaa",
+    "country": "EE",
+    "firstLetter": "H",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "EE-ida-virumaa",
+    "name": "Ida-Virumaa",
+    "country": "EE",
+    "firstLetter": "I",
+    "neighbors": [
+      "EE-jogevamaa",
+      "EE-laane-virumaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-jarvamaa",
+    "name": "Järvamaa",
+    "country": "EE",
+    "firstLetter": "J",
+    "neighbors": [
+      "EE-harjumaa",
+      "EE-jogevamaa",
+      "EE-laane-virumaa",
+      "EE-parnumaa",
+      "EE-raplamaa",
+      "EE-viljandimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-jogevamaa",
+    "name": "Jõgevamaa",
+    "country": "EE",
+    "firstLetter": "J",
+    "neighbors": [
+      "EE-ida-virumaa",
+      "EE-jarvamaa",
+      "EE-laane-virumaa",
+      "EE-tartumaa",
+      "EE-viljandimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-laane-virumaa",
+    "name": "Lääne-Virumaa",
+    "country": "EE",
+    "firstLetter": "L",
+    "neighbors": [
+      "EE-harjumaa",
+      "EE-ida-virumaa",
+      "EE-jarvamaa",
+      "EE-jogevamaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-laanemaa",
+    "name": "Läänemaa",
+    "country": "EE",
+    "firstLetter": "L",
+    "neighbors": [
+      "EE-harjumaa",
+      "EE-parnumaa",
+      "EE-raplamaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-parnumaa",
+    "name": "Pärnumaa",
+    "country": "EE",
+    "firstLetter": "P",
+    "neighbors": [
+      "EE-jarvamaa",
+      "EE-laanemaa",
+      "EE-raplamaa",
+      "EE-viljandimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-polvamaa",
+    "name": "Põlvamaa",
+    "country": "EE",
+    "firstLetter": "P",
+    "neighbors": [
+      "EE-tartumaa",
+      "EE-valgamaa",
+      "EE-vorumaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-raplamaa",
+    "name": "Raplamaa",
+    "country": "EE",
+    "firstLetter": "R",
+    "neighbors": [
+      "EE-harjumaa",
+      "EE-jarvamaa",
+      "EE-laanemaa",
+      "EE-parnumaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-saaremaa",
+    "name": "Saaremaa",
+    "country": "EE",
+    "firstLetter": "S",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "EE-tartumaa",
+    "name": "Tartumaa",
+    "country": "EE",
+    "firstLetter": "T",
+    "neighbors": [
+      "EE-jogevamaa",
+      "EE-polvamaa",
+      "EE-valgamaa",
+      "EE-viljandimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-valgamaa",
+    "name": "Valgamaa",
+    "country": "EE",
+    "firstLetter": "V",
+    "neighbors": [
+      "EE-polvamaa",
+      "EE-tartumaa",
+      "EE-viljandimaa",
+      "EE-vorumaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-viljandimaa",
+    "name": "Viljandimaa",
+    "country": "EE",
+    "firstLetter": "V",
+    "neighbors": [
+      "EE-jarvamaa",
+      "EE-jogevamaa",
+      "EE-parnumaa",
+      "EE-tartumaa",
+      "EE-valgamaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "EE-vorumaa",
+    "name": "Võrumaa",
+    "country": "EE",
+    "firstLetter": "V",
+    "neighbors": [
+      "EE-polvamaa",
+      "EE-valgamaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-andalucia",
+    "name": "Andalucía",
+    "country": "ES",
+    "firstLetter": "A",
+    "neighbors": [
+      "ES-castilla-la-mancha",
+      "ES-extremadura",
+      "ES-murcia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-aragon",
+    "name": "Aragón",
+    "country": "ES",
+    "firstLetter": "A",
+    "neighbors": [
+      "ES-castilla-la-mancha",
+      "ES-castilla-y-leon",
+      "ES-cataluna",
+      "ES-la-rioja",
+      "ES-navarra",
+      "ES-valencia",
+      "FR-nouvelle-aquitaine",
+      "FR-occitanie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-asturias",
+    "name": "Asturias",
+    "country": "ES",
+    "firstLetter": "A",
+    "neighbors": [
+      "ES-cantabria",
+      "ES-castilla-y-leon",
+      "ES-galicia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-cantabria",
+    "name": "Cantabria",
+    "country": "ES",
+    "firstLetter": "C",
+    "neighbors": [
+      "ES-asturias",
+      "ES-castilla-y-leon",
+      "ES-pais-vasco"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-castilla-y-leon",
+    "name": "Castilla y León",
+    "country": "ES",
+    "firstLetter": "C",
+    "neighbors": [
+      "ES-aragon",
+      "ES-asturias",
+      "ES-cantabria",
+      "ES-castilla-la-mancha",
+      "ES-extremadura",
+      "ES-galicia",
+      "ES-la-rioja",
+      "ES-madrid",
+      "ES-pais-vasco"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-castilla-la-mancha",
+    "name": "Castilla-La Mancha",
+    "country": "ES",
+    "firstLetter": "C",
+    "neighbors": [
+      "ES-andalucia",
+      "ES-aragon",
+      "ES-castilla-y-leon",
+      "ES-extremadura",
+      "ES-madrid",
+      "ES-murcia",
+      "ES-valencia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-cataluna",
+    "name": "Cataluña",
+    "country": "ES",
+    "firstLetter": "C",
+    "neighbors": [
+      "ES-aragon",
+      "ES-valencia",
+      "FR-occitanie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-extremadura",
+    "name": "Extremadura",
+    "country": "ES",
+    "firstLetter": "E",
+    "neighbors": [
+      "ES-andalucia",
+      "ES-castilla-la-mancha",
+      "ES-castilla-y-leon"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-galicia",
+    "name": "Galicia",
+    "country": "ES",
+    "firstLetter": "G",
+    "neighbors": [
+      "ES-asturias",
+      "ES-castilla-y-leon"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-islas-baleares",
+    "name": "Islas Baleares",
+    "country": "ES",
+    "firstLetter": "I",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "ES-islas-canarias",
+    "name": "Islas Canarias",
+    "country": "ES",
+    "firstLetter": "I",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "ES-la-rioja",
+    "name": "La Rioja",
+    "country": "ES",
+    "firstLetter": "L",
+    "neighbors": [
+      "ES-aragon",
+      "ES-castilla-y-leon",
+      "ES-navarra",
+      "ES-pais-vasco"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-madrid",
+    "name": "Madrid",
+    "country": "ES",
+    "firstLetter": "M",
+    "neighbors": [
+      "ES-castilla-la-mancha",
+      "ES-castilla-y-leon"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-murcia",
+    "name": "Murcia",
+    "country": "ES",
+    "firstLetter": "M",
+    "neighbors": [
+      "ES-andalucia",
+      "ES-castilla-la-mancha",
+      "ES-valencia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-navarra",
+    "name": "Navarra",
+    "country": "ES",
+    "firstLetter": "N",
+    "neighbors": [
+      "ES-aragon",
+      "ES-la-rioja",
+      "ES-pais-vasco",
+      "FR-nouvelle-aquitaine"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-pais-vasco",
+    "name": "País Vasco",
+    "country": "ES",
+    "firstLetter": "P",
+    "neighbors": [
+      "ES-cantabria",
+      "ES-castilla-y-leon",
+      "ES-la-rioja",
+      "ES-navarra"
+    ],
+    "flag": null
+  },
+  {
+    "id": "ES-valencia",
+    "name": "Valencia",
+    "country": "ES",
+    "firstLetter": "V",
+    "neighbors": [
+      "ES-aragon",
+      "ES-castilla-la-mancha",
+      "ES-cataluna",
+      "ES-murcia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-aland-islands",
+    "name": "Åland Islands",
+    "country": "FI",
+    "firstLetter": "A",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "FI-central-finland",
+    "name": "Central Finland",
+    "country": "FI",
+    "firstLetter": "C",
+    "neighbors": [
+      "FI-central-ostrobothnia",
+      "FI-northern-ostrobothnia",
+      "FI-northern-savonia",
+      "FI-paijanne-tavastia",
+      "FI-pirkanmaa",
+      "FI-southern-ostrobothnia",
+      "FI-southern-savonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-central-ostrobothnia",
+    "name": "Central Ostrobothnia",
+    "country": "FI",
+    "firstLetter": "C",
+    "neighbors": [
+      "FI-central-finland",
+      "FI-northern-ostrobothnia",
+      "FI-ostrobothnia",
+      "FI-southern-ostrobothnia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-kainuu",
+    "name": "Kainuu",
+    "country": "FI",
+    "firstLetter": "K",
+    "neighbors": [
+      "FI-north-karelia",
+      "FI-northern-ostrobothnia",
+      "FI-northern-savonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-kymenlaakso",
+    "name": "Kymenlaakso",
+    "country": "FI",
+    "firstLetter": "K",
+    "neighbors": [
+      "FI-paijanne-tavastia",
+      "FI-south-karelia",
+      "FI-southern-savonia",
+      "FI-uusimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-lapland",
+    "name": "Lapland",
+    "country": "FI",
+    "firstLetter": "L",
+    "neighbors": [
+      "FI-northern-ostrobothnia",
+      "NO-finnmark",
+      "NO-troms",
+      "SE-norrbotten"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-north-karelia",
+    "name": "North Karelia",
+    "country": "FI",
+    "firstLetter": "N",
+    "neighbors": [
+      "FI-kainuu",
+      "FI-northern-savonia",
+      "FI-south-karelia",
+      "FI-southern-savonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-northern-ostrobothnia",
+    "name": "Northern Ostrobothnia",
+    "country": "FI",
+    "firstLetter": "N",
+    "neighbors": [
+      "FI-central-finland",
+      "FI-central-ostrobothnia",
+      "FI-kainuu",
+      "FI-lapland",
+      "FI-northern-savonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-northern-savonia",
+    "name": "Northern Savonia",
+    "country": "FI",
+    "firstLetter": "N",
+    "neighbors": [
+      "FI-central-finland",
+      "FI-kainuu",
+      "FI-north-karelia",
+      "FI-northern-ostrobothnia",
+      "FI-southern-savonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-ostrobothnia",
+    "name": "Ostrobothnia",
+    "country": "FI",
+    "firstLetter": "O",
+    "neighbors": [
+      "FI-central-ostrobothnia",
+      "FI-satakunta",
+      "FI-southern-ostrobothnia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-paijanne-tavastia",
+    "name": "Päijänne Tavastia",
+    "country": "FI",
+    "firstLetter": "P",
+    "neighbors": [
+      "FI-central-finland",
+      "FI-kymenlaakso",
+      "FI-pirkanmaa",
+      "FI-southern-savonia",
+      "FI-tavastia-proper",
+      "FI-uusimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-pirkanmaa",
+    "name": "Pirkanmaa",
+    "country": "FI",
+    "firstLetter": "P",
+    "neighbors": [
+      "FI-central-finland",
+      "FI-paijanne-tavastia",
+      "FI-satakunta",
+      "FI-southern-ostrobothnia",
+      "FI-tavastia-proper"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-satakunta",
+    "name": "Satakunta",
+    "country": "FI",
+    "firstLetter": "S",
+    "neighbors": [
+      "FI-ostrobothnia",
+      "FI-pirkanmaa",
+      "FI-southern-ostrobothnia",
+      "FI-southwest-finland",
+      "FI-tavastia-proper"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-south-karelia",
+    "name": "South Karelia",
+    "country": "FI",
+    "firstLetter": "S",
+    "neighbors": [
+      "FI-kymenlaakso",
+      "FI-north-karelia",
+      "FI-southern-savonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-southern-ostrobothnia",
+    "name": "Southern Ostrobothnia",
+    "country": "FI",
+    "firstLetter": "S",
+    "neighbors": [
+      "FI-central-finland",
+      "FI-central-ostrobothnia",
+      "FI-ostrobothnia",
+      "FI-pirkanmaa",
+      "FI-satakunta"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-southern-savonia",
+    "name": "Southern Savonia",
+    "country": "FI",
+    "firstLetter": "S",
+    "neighbors": [
+      "FI-central-finland",
+      "FI-kymenlaakso",
+      "FI-north-karelia",
+      "FI-northern-savonia",
+      "FI-paijanne-tavastia",
+      "FI-south-karelia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-southwest-finland",
+    "name": "Southwest Finland",
+    "country": "FI",
+    "firstLetter": "S",
+    "neighbors": [
+      "FI-satakunta",
+      "FI-tavastia-proper",
+      "FI-uusimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-tavastia-proper",
+    "name": "Tavastia Proper",
+    "country": "FI",
+    "firstLetter": "T",
+    "neighbors": [
+      "FI-paijanne-tavastia",
+      "FI-pirkanmaa",
+      "FI-satakunta",
+      "FI-southwest-finland",
+      "FI-uusimaa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FI-uusimaa",
+    "name": "Uusimaa",
+    "country": "FI",
+    "firstLetter": "U",
+    "neighbors": [
+      "FI-kymenlaakso",
+      "FI-paijanne-tavastia",
+      "FI-southwest-finland",
+      "FI-tavastia-proper"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-auvergne-rhone-alpes",
+    "name": "Auvergne-Rhône-Alpes",
+    "country": "FR",
+    "firstLetter": "A",
+    "neighbors": [
+      "CH-geneve",
+      "CH-valais",
+      "CH-vaud",
+      "FR-bourgogne-franche-comte",
+      "FR-centre-val-de-loire",
+      "FR-nouvelle-aquitaine",
+      "FR-occitanie",
+      "FR-provence-alpes-cote-d-azur",
+      "IT-piemonte",
+      "IT-valle-d-aosta"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-bourgogne-franche-comte",
+    "name": "Bourgogne-Franche-Comté",
+    "country": "FR",
+    "firstLetter": "B",
+    "neighbors": [
+      "CH-jura",
+      "CH-neuchatel",
+      "CH-vaud",
+      "FR-auvergne-rhone-alpes",
+      "FR-centre-val-de-loire",
+      "FR-grand-est",
+      "FR-ile-de-france"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-bretagne",
+    "name": "Bretagne",
+    "country": "FR",
+    "firstLetter": "B",
+    "neighbors": [
+      "FR-normandie",
+      "FR-pays-de-la-loire"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-centre-val-de-loire",
+    "name": "Centre-Val de Loire",
+    "country": "FR",
+    "firstLetter": "C",
+    "neighbors": [
+      "FR-auvergne-rhone-alpes",
+      "FR-bourgogne-franche-comte",
+      "FR-ile-de-france",
+      "FR-normandie",
+      "FR-nouvelle-aquitaine",
+      "FR-pays-de-la-loire"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-corse",
+    "name": "Corse",
+    "country": "FR",
+    "firstLetter": "C",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "FR-grand-est",
+    "name": "Grand Est",
+    "country": "FR",
+    "firstLetter": "G",
+    "neighbors": [
+      "BE-wallonia",
+      "CH-basel-landschaft",
+      "CH-bern",
+      "CH-jura",
+      "CH-solothurn",
+      "DE-baden-wurttemberg",
+      "DE-rhineland-palatinate",
+      "DE-saarland",
+      "FR-bourgogne-franche-comte",
+      "FR-hauts-de-france",
+      "FR-ile-de-france",
+      "LU-esch-sur-alzette",
+      "LU-remich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-hauts-de-france",
+    "name": "Hauts-de-France",
+    "country": "FR",
+    "firstLetter": "H",
+    "neighbors": [
+      "BE-flanders",
+      "BE-wallonia",
+      "FR-grand-est",
+      "FR-ile-de-france",
+      "FR-normandie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-ile-de-france",
+    "name": "Île-de-France",
+    "country": "FR",
+    "firstLetter": "I",
+    "neighbors": [
+      "FR-bourgogne-franche-comte",
+      "FR-centre-val-de-loire",
+      "FR-grand-est",
+      "FR-hauts-de-france",
+      "FR-normandie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-normandie",
+    "name": "Normandie",
+    "country": "FR",
+    "firstLetter": "N",
+    "neighbors": [
+      "FR-bretagne",
+      "FR-centre-val-de-loire",
+      "FR-hauts-de-france",
+      "FR-ile-de-france",
+      "FR-pays-de-la-loire"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-nouvelle-aquitaine",
+    "name": "Nouvelle-Aquitaine",
+    "country": "FR",
+    "firstLetter": "N",
+    "neighbors": [
+      "ES-aragon",
+      "ES-navarra",
+      "FR-auvergne-rhone-alpes",
+      "FR-centre-val-de-loire",
+      "FR-occitanie",
+      "FR-pays-de-la-loire"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-occitanie",
+    "name": "Occitanie",
+    "country": "FR",
+    "firstLetter": "O",
+    "neighbors": [
+      "ES-aragon",
+      "ES-cataluna",
+      "FR-auvergne-rhone-alpes",
+      "FR-nouvelle-aquitaine",
+      "FR-provence-alpes-cote-d-azur"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-pays-de-la-loire",
+    "name": "Pays de la Loire",
+    "country": "FR",
+    "firstLetter": "P",
+    "neighbors": [
+      "FR-bretagne",
+      "FR-centre-val-de-loire",
+      "FR-normandie",
+      "FR-nouvelle-aquitaine"
+    ],
+    "flag": null
+  },
+  {
+    "id": "FR-provence-alpes-cote-d-azur",
+    "name": "Provence-Alpes-Côte d'Azur",
+    "country": "FR",
+    "firstLetter": "P",
+    "neighbors": [
+      "FR-auvergne-rhone-alpes",
+      "FR-occitanie",
+      "IT-liguria",
+      "IT-piemonte"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GB-england",
+    "name": "England",
+    "country": "GB",
+    "firstLetter": "E",
+    "neighbors": [
+      "GB-scotland",
+      "GB-wales"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GB-northern-ireland",
+    "name": "Northern Ireland",
+    "country": "GB",
+    "firstLetter": "N",
+    "neighbors": [
+      "IE-connacht",
+      "IE-leinster",
+      "IE-ulster"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GB-scotland",
+    "name": "Scotland",
+    "country": "GB",
+    "firstLetter": "S",
+    "neighbors": [
+      "GB-england"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GB-wales",
+    "name": "Wales",
+    "country": "GB",
+    "firstLetter": "W",
+    "neighbors": [
+      "GB-england"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GR-aegean-islands",
+    "name": "Aegean Islands",
+    "country": "GR",
+    "firstLetter": "A",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "GR-central-greece",
+    "name": "Central Greece",
+    "country": "GR",
+    "firstLetter": "C",
+    "neighbors": [
+      "GR-epirus",
+      "GR-peloponnese",
+      "GR-thessaly"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GR-crete",
+    "name": "Crete",
+    "country": "GR",
+    "firstLetter": "C",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "GR-epirus",
+    "name": "Epirus",
+    "country": "GR",
+    "firstLetter": "E",
+    "neighbors": [
+      "AL-gjirokaster",
+      "AL-korce",
+      "AL-vlore",
+      "GR-central-greece",
+      "GR-macedonia",
+      "GR-thessaly"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GR-ionian-islands",
+    "name": "Ionian Islands",
+    "country": "GR",
+    "firstLetter": "I",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "GR-macedonia",
+    "name": "Macedonia",
+    "country": "GR",
+    "firstLetter": "M",
+    "neighbors": [
+      "AL-korce",
+      "BG-blagoevgrad",
+      "GR-epirus",
+      "GR-thessaly",
+      "GR-thrace"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GR-peloponnese",
+    "name": "Peloponnese",
+    "country": "GR",
+    "firstLetter": "P",
+    "neighbors": [
+      "GR-central-greece"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GR-thessaly",
+    "name": "Thessaly",
+    "country": "GR",
+    "firstLetter": "T",
+    "neighbors": [
+      "GR-central-greece",
+      "GR-epirus",
+      "GR-macedonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "GR-thrace",
+    "name": "Thrace",
+    "country": "GR",
+    "firstLetter": "T",
+    "neighbors": [
+      "BG-blagoevgrad",
+      "BG-haskovo",
+      "BG-kardzhali",
+      "BG-smolyan",
+      "GR-macedonia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-bjelovar-bilogora",
+    "name": "Bjelovar-Bilogora",
+    "country": "HR",
+    "firstLetter": "B",
+    "neighbors": [
+      "HR-koprivnica-krizevci",
+      "HR-pozega-slavonia",
+      "HR-sisak-moslavina",
+      "HR-virovitica-podravina",
+      "HR-zagreb-county"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-brod-posavina",
+    "name": "Brod-Posavina",
+    "country": "HR",
+    "firstLetter": "B",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "BA-republika-srpska",
+      "HR-osijek-baranja",
+      "HR-pozega-slavonia",
+      "HR-sisak-moslavina",
+      "HR-vukovar-srijem"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-dubrovnik-neretva",
+    "name": "Dubrovnik-Neretva",
+    "country": "HR",
+    "firstLetter": "D",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "BA-republika-srpska",
+      "HR-split-dalmatia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-grad-zagreb",
+    "name": "Grad Zagreb",
+    "country": "HR",
+    "firstLetter": "G",
+    "neighbors": [
+      "HR-krapina-zagorje",
+      "HR-zagreb-county"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-istria",
+    "name": "Istria",
+    "country": "HR",
+    "firstLetter": "I",
+    "neighbors": [
+      "HR-primorje-gorski-kotar"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-karlovac",
+    "name": "Karlovac",
+    "country": "HR",
+    "firstLetter": "K",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "HR-lika-senj",
+      "HR-primorje-gorski-kotar",
+      "HR-sisak-moslavina",
+      "HR-zagreb-county"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-koprivnica-krizevci",
+    "name": "Koprivnica-Križevci",
+    "country": "HR",
+    "firstLetter": "K",
+    "neighbors": [
+      "HR-bjelovar-bilogora",
+      "HR-medimurje",
+      "HR-varazdin",
+      "HR-virovitica-podravina",
+      "HR-zagreb-county",
+      "HU-somogy",
+      "HU-zala"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-krapina-zagorje",
+    "name": "Krapina-Zagorje",
+    "country": "HR",
+    "firstLetter": "K",
+    "neighbors": [
+      "HR-grad-zagreb",
+      "HR-varazdin",
+      "HR-zagreb-county"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-lika-senj",
+    "name": "Lika-Senj",
+    "country": "HR",
+    "firstLetter": "L",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "HR-karlovac",
+      "HR-primorje-gorski-kotar",
+      "HR-zadar"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-medimurje",
+    "name": "Medimurje",
+    "country": "HR",
+    "firstLetter": "M",
+    "neighbors": [
+      "HR-koprivnica-krizevci",
+      "HR-varazdin",
+      "HU-zala"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-osijek-baranja",
+    "name": "Osijek-Baranja",
+    "country": "HR",
+    "firstLetter": "O",
+    "neighbors": [
+      "HR-brod-posavina",
+      "HR-pozega-slavonia",
+      "HR-virovitica-podravina",
+      "HR-vukovar-srijem",
+      "HU-baranya"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-pozega-slavonia",
+    "name": "Požega-Slavonia",
+    "country": "HR",
+    "firstLetter": "P",
+    "neighbors": [
+      "HR-bjelovar-bilogora",
+      "HR-brod-posavina",
+      "HR-osijek-baranja",
+      "HR-sisak-moslavina",
+      "HR-virovitica-podravina"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-primorje-gorski-kotar",
+    "name": "Primorje-Gorski Kotar",
+    "country": "HR",
+    "firstLetter": "P",
+    "neighbors": [
+      "HR-istria",
+      "HR-karlovac",
+      "HR-lika-senj"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-sibenik-knin",
+    "name": "Šibenik-Knin",
+    "country": "HR",
+    "firstLetter": "S",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "HR-split-dalmatia",
+      "HR-zadar"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-sisak-moslavina",
+    "name": "Sisak-Moslavina",
+    "country": "HR",
+    "firstLetter": "S",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "BA-republika-srpska",
+      "HR-bjelovar-bilogora",
+      "HR-brod-posavina",
+      "HR-karlovac",
+      "HR-pozega-slavonia",
+      "HR-zagreb-county"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-split-dalmatia",
+    "name": "Split-Dalmatia",
+    "country": "HR",
+    "firstLetter": "S",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "HR-dubrovnik-neretva",
+      "HR-sibenik-knin"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-varazdin",
+    "name": "Varaždin",
+    "country": "HR",
+    "firstLetter": "V",
+    "neighbors": [
+      "HR-koprivnica-krizevci",
+      "HR-krapina-zagorje",
+      "HR-medimurje",
+      "HR-zagreb-county"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-virovitica-podravina",
+    "name": "Virovitica-Podravina",
+    "country": "HR",
+    "firstLetter": "V",
+    "neighbors": [
+      "HR-bjelovar-bilogora",
+      "HR-koprivnica-krizevci",
+      "HR-osijek-baranja",
+      "HR-pozega-slavonia",
+      "HU-baranya",
+      "HU-somogy"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-vukovar-srijem",
+    "name": "Vukovar-Srijem",
+    "country": "HR",
+    "firstLetter": "V",
+    "neighbors": [
+      "BA-brcko-district",
+      "BA-republika-srpska",
+      "HR-brod-posavina",
+      "HR-osijek-baranja"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-zadar",
+    "name": "Zadar",
+    "country": "HR",
+    "firstLetter": "Z",
+    "neighbors": [
+      "BA-federation-of-bosnia-and-herzegovina",
+      "HR-lika-senj",
+      "HR-sibenik-knin"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HR-zagreb-county",
+    "name": "Zagreb County",
+    "country": "HR",
+    "firstLetter": "Z",
+    "neighbors": [
+      "HR-bjelovar-bilogora",
+      "HR-grad-zagreb",
+      "HR-karlovac",
+      "HR-koprivnica-krizevci",
+      "HR-krapina-zagorje",
+      "HR-sisak-moslavina",
+      "HR-varazdin"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-bacs-kiskun",
+    "name": "Bács-Kiskun",
+    "country": "HU",
+    "firstLetter": "B",
+    "neighbors": [
+      "HU-baranya",
+      "HU-csongrad-csanad",
+      "HU-fejer",
+      "HU-jasz-nagykun-szolnok",
+      "HU-pest",
+      "HU-tolna"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-baranya",
+    "name": "Baranya",
+    "country": "HU",
+    "firstLetter": "B",
+    "neighbors": [
+      "HR-osijek-baranja",
+      "HR-virovitica-podravina",
+      "HU-bacs-kiskun",
+      "HU-somogy",
+      "HU-tolna"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-bekes",
+    "name": "Békés",
+    "country": "HU",
+    "firstLetter": "B",
+    "neighbors": [
+      "HU-csongrad-csanad",
+      "HU-hajdu-bihar",
+      "HU-jasz-nagykun-szolnok",
+      "RO-arad",
+      "RO-bihor"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-borsod-abauj-zemplen",
+    "name": "Borsod-Abaúj-Zemplén",
+    "country": "HU",
+    "firstLetter": "B",
+    "neighbors": [
+      "HU-hajdu-bihar",
+      "HU-heves",
+      "HU-jasz-nagykun-szolnok",
+      "HU-nograd",
+      "HU-szabolcs-szatmar-bereg",
+      "SK-banskobystricky",
+      "SK-kosicky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-budapest",
+    "name": "Budapest",
+    "country": "HU",
+    "firstLetter": "B",
+    "neighbors": [
+      "HU-pest"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-csongrad-csanad",
+    "name": "Csongrád-Csanád",
+    "country": "HU",
+    "firstLetter": "C",
+    "neighbors": [
+      "HU-bacs-kiskun",
+      "HU-bekes",
+      "HU-jasz-nagykun-szolnok",
+      "RO-arad",
+      "RO-timis"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-fejer",
+    "name": "Fejér",
+    "country": "HU",
+    "firstLetter": "F",
+    "neighbors": [
+      "HU-bacs-kiskun",
+      "HU-komarom-esztergom",
+      "HU-pest",
+      "HU-somogy",
+      "HU-tolna",
+      "HU-veszprem"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-gyor-moson-sopron",
+    "name": "Győr-Moson-Sopron",
+    "country": "HU",
+    "firstLetter": "G",
+    "neighbors": [
+      "AT-burgenland",
+      "HU-komarom-esztergom",
+      "HU-vas",
+      "HU-veszprem",
+      "SK-bratislavsky",
+      "SK-trnavsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-hajdu-bihar",
+    "name": "Hajdú-Bihar",
+    "country": "HU",
+    "firstLetter": "H",
+    "neighbors": [
+      "HU-bekes",
+      "HU-borsod-abauj-zemplen",
+      "HU-jasz-nagykun-szolnok",
+      "HU-szabolcs-szatmar-bereg",
+      "RO-bihor"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-heves",
+    "name": "Heves",
+    "country": "HU",
+    "firstLetter": "H",
+    "neighbors": [
+      "HU-borsod-abauj-zemplen",
+      "HU-jasz-nagykun-szolnok",
+      "HU-nograd",
+      "HU-pest"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-jasz-nagykun-szolnok",
+    "name": "Jász-Nagykun-Szolnok",
+    "country": "HU",
+    "firstLetter": "J",
+    "neighbors": [
+      "HU-bacs-kiskun",
+      "HU-bekes",
+      "HU-borsod-abauj-zemplen",
+      "HU-csongrad-csanad",
+      "HU-hajdu-bihar",
+      "HU-heves",
+      "HU-pest"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-komarom-esztergom",
+    "name": "Komárom-Esztergom",
+    "country": "HU",
+    "firstLetter": "K",
+    "neighbors": [
+      "HU-fejer",
+      "HU-gyor-moson-sopron",
+      "HU-pest",
+      "HU-veszprem",
+      "SK-nitriansky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-nograd",
+    "name": "Nógrád",
+    "country": "HU",
+    "firstLetter": "N",
+    "neighbors": [
+      "HU-borsod-abauj-zemplen",
+      "HU-heves",
+      "HU-pest",
+      "SK-banskobystricky",
+      "SK-nitriansky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-pest",
+    "name": "Pest",
+    "country": "HU",
+    "firstLetter": "P",
+    "neighbors": [
+      "HU-bacs-kiskun",
+      "HU-budapest",
+      "HU-fejer",
+      "HU-heves",
+      "HU-jasz-nagykun-szolnok",
+      "HU-komarom-esztergom",
+      "HU-nograd",
+      "SK-nitriansky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-somogy",
+    "name": "Somogy",
+    "country": "HU",
+    "firstLetter": "S",
+    "neighbors": [
+      "HR-koprivnica-krizevci",
+      "HR-virovitica-podravina",
+      "HU-baranya",
+      "HU-fejer",
+      "HU-tolna",
+      "HU-veszprem",
+      "HU-zala"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-szabolcs-szatmar-bereg",
+    "name": "Szabolcs-Szatmár-Bereg",
+    "country": "HU",
+    "firstLetter": "S",
+    "neighbors": [
+      "HU-borsod-abauj-zemplen",
+      "HU-hajdu-bihar",
+      "RO-bihor",
+      "RO-satu-mare",
+      "SK-kosicky",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-tolna",
+    "name": "Tolna",
+    "country": "HU",
+    "firstLetter": "T",
+    "neighbors": [
+      "HU-bacs-kiskun",
+      "HU-baranya",
+      "HU-fejer",
+      "HU-somogy"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-vas",
+    "name": "Vas",
+    "country": "HU",
+    "firstLetter": "V",
+    "neighbors": [
+      "AT-burgenland",
+      "HU-gyor-moson-sopron",
+      "HU-veszprem",
+      "HU-zala"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-veszprem",
+    "name": "Veszprém",
+    "country": "HU",
+    "firstLetter": "V",
+    "neighbors": [
+      "HU-fejer",
+      "HU-gyor-moson-sopron",
+      "HU-komarom-esztergom",
+      "HU-somogy",
+      "HU-vas",
+      "HU-zala"
+    ],
+    "flag": null
+  },
+  {
+    "id": "HU-zala",
+    "name": "Zala",
+    "country": "HU",
+    "firstLetter": "Z",
+    "neighbors": [
+      "HR-koprivnica-krizevci",
+      "HR-medimurje",
+      "HU-somogy",
+      "HU-vas",
+      "HU-veszprem"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IE-connacht",
+    "name": "Connacht",
+    "country": "IE",
+    "firstLetter": "C",
+    "neighbors": [
+      "GB-northern-ireland",
+      "IE-leinster",
+      "IE-munster",
+      "IE-ulster"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IE-leinster",
+    "name": "Leinster",
+    "country": "IE",
+    "firstLetter": "L",
+    "neighbors": [
+      "GB-northern-ireland",
+      "IE-connacht",
+      "IE-munster",
+      "IE-ulster"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IE-munster",
+    "name": "Munster",
+    "country": "IE",
+    "firstLetter": "M",
+    "neighbors": [
+      "IE-connacht",
+      "IE-leinster"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IE-ulster",
+    "name": "Ulster",
+    "country": "IE",
+    "firstLetter": "U",
+    "neighbors": [
+      "GB-northern-ireland",
+      "IE-connacht",
+      "IE-leinster"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-abruzzo",
+    "name": "Abruzzo",
+    "country": "IT",
+    "firstLetter": "A",
+    "neighbors": [
+      "IT-lazio",
+      "IT-marche",
+      "IT-molise"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-basilicata",
+    "name": "Basilicata",
+    "country": "IT",
+    "firstLetter": "B",
+    "neighbors": [
+      "IT-calabria",
+      "IT-campania",
+      "IT-puglia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-calabria",
+    "name": "Calabria",
+    "country": "IT",
+    "firstLetter": "C",
+    "neighbors": [
+      "IT-basilicata"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-campania",
+    "name": "Campania",
+    "country": "IT",
+    "firstLetter": "C",
+    "neighbors": [
+      "IT-basilicata",
+      "IT-lazio",
+      "IT-molise",
+      "IT-puglia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-emilia-romagna",
+    "name": "Emilia-Romagna",
+    "country": "IT",
+    "firstLetter": "E",
+    "neighbors": [
+      "IT-liguria",
+      "IT-lombardia",
+      "IT-marche",
+      "IT-piemonte",
+      "IT-toscana",
+      "IT-veneto"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-friuli-venezia-giulia",
+    "name": "Friuli-Venezia Giulia",
+    "country": "IT",
+    "firstLetter": "F",
+    "neighbors": [
+      "AT-carinthia",
+      "IT-veneto"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-lazio",
+    "name": "Lazio",
+    "country": "IT",
+    "firstLetter": "L",
+    "neighbors": [
+      "IT-abruzzo",
+      "IT-campania",
+      "IT-marche",
+      "IT-molise",
+      "IT-toscana",
+      "IT-umbria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-liguria",
+    "name": "Liguria",
+    "country": "IT",
+    "firstLetter": "L",
+    "neighbors": [
+      "FR-provence-alpes-cote-d-azur",
+      "IT-emilia-romagna",
+      "IT-piemonte",
+      "IT-toscana"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-lombardia",
+    "name": "Lombardia",
+    "country": "IT",
+    "firstLetter": "L",
+    "neighbors": [
+      "CH-graubunden",
+      "CH-ticino",
+      "IT-emilia-romagna",
+      "IT-piemonte",
+      "IT-trentino-alto-adige",
+      "IT-veneto"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-marche",
+    "name": "Marche",
+    "country": "IT",
+    "firstLetter": "M",
+    "neighbors": [
+      "IT-abruzzo",
+      "IT-emilia-romagna",
+      "IT-lazio",
+      "IT-toscana",
+      "IT-umbria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-molise",
+    "name": "Molise",
+    "country": "IT",
+    "firstLetter": "M",
+    "neighbors": [
+      "IT-abruzzo",
+      "IT-campania",
+      "IT-lazio",
+      "IT-puglia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-piemonte",
+    "name": "Piemonte",
+    "country": "IT",
+    "firstLetter": "P",
+    "neighbors": [
+      "CH-ticino",
+      "CH-valais",
+      "FR-auvergne-rhone-alpes",
+      "FR-provence-alpes-cote-d-azur",
+      "IT-emilia-romagna",
+      "IT-liguria",
+      "IT-lombardia",
+      "IT-valle-d-aosta"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-puglia",
+    "name": "Puglia",
+    "country": "IT",
+    "firstLetter": "P",
+    "neighbors": [
+      "IT-basilicata",
+      "IT-campania",
+      "IT-molise"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-sardegna",
+    "name": "Sardegna",
+    "country": "IT",
+    "firstLetter": "S",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "IT-sicilia",
+    "name": "Sicilia",
+    "country": "IT",
+    "firstLetter": "S",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "IT-toscana",
+    "name": "Toscana",
+    "country": "IT",
+    "firstLetter": "T",
+    "neighbors": [
+      "IT-emilia-romagna",
+      "IT-lazio",
+      "IT-liguria",
+      "IT-marche",
+      "IT-umbria"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-trentino-alto-adige",
+    "name": "Trentino-Alto Adige",
+    "country": "IT",
+    "firstLetter": "T",
+    "neighbors": [
+      "AT-salzburg",
+      "AT-tyrol",
+      "CH-graubunden",
+      "IT-lombardia",
+      "IT-veneto"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-umbria",
+    "name": "Umbria",
+    "country": "IT",
+    "firstLetter": "U",
+    "neighbors": [
+      "IT-lazio",
+      "IT-marche",
+      "IT-toscana"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-valle-d-aosta",
+    "name": "Valle d'Aosta",
+    "country": "IT",
+    "firstLetter": "V",
+    "neighbors": [
+      "CH-valais",
+      "FR-auvergne-rhone-alpes",
+      "IT-piemonte"
+    ],
+    "flag": null
+  },
+  {
+    "id": "IT-veneto",
+    "name": "Veneto",
+    "country": "IT",
+    "firstLetter": "V",
+    "neighbors": [
+      "AT-tyrol",
+      "IT-emilia-romagna",
+      "IT-friuli-venezia-giulia",
+      "IT-lombardia",
+      "IT-trentino-alto-adige"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-alytus",
+    "name": "Alytus",
+    "country": "LT",
+    "firstLetter": "A",
+    "neighbors": [
+      "BY-hrodna",
+      "LT-kaunas",
+      "LT-marijampole",
+      "LT-vilnius",
+      "PL-podlaskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-kaunas",
+    "name": "Kaunas",
+    "country": "LT",
+    "firstLetter": "K",
+    "neighbors": [
+      "LT-alytus",
+      "LT-marijampole",
+      "LT-panevezys",
+      "LT-siauliai",
+      "LT-taurage",
+      "LT-vilnius"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-klaipeda",
+    "name": "Klaipėda",
+    "country": "LT",
+    "firstLetter": "K",
+    "neighbors": [
+      "LT-taurage",
+      "LT-telsiai"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-marijampole",
+    "name": "Marijampolė",
+    "country": "LT",
+    "firstLetter": "M",
+    "neighbors": [
+      "LT-alytus",
+      "LT-kaunas",
+      "LT-taurage",
+      "PL-podlaskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-panevezys",
+    "name": "Panevėžys",
+    "country": "LT",
+    "firstLetter": "P",
+    "neighbors": [
+      "LT-kaunas",
+      "LT-siauliai",
+      "LT-utena",
+      "LT-vilnius"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-siauliai",
+    "name": "Šiauliai",
+    "country": "LT",
+    "firstLetter": "S",
+    "neighbors": [
+      "LT-kaunas",
+      "LT-panevezys",
+      "LT-taurage",
+      "LT-telsiai"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-taurage",
+    "name": "Taurage",
+    "country": "LT",
+    "firstLetter": "T",
+    "neighbors": [
+      "LT-kaunas",
+      "LT-klaipeda",
+      "LT-marijampole",
+      "LT-siauliai",
+      "LT-telsiai"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-telsiai",
+    "name": "Telšiai",
+    "country": "LT",
+    "firstLetter": "T",
+    "neighbors": [
+      "LT-klaipeda",
+      "LT-siauliai",
+      "LT-taurage"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-utena",
+    "name": "Utena",
+    "country": "LT",
+    "firstLetter": "U",
+    "neighbors": [
+      "BY-vitsyebsk",
+      "LT-panevezys",
+      "LT-vilnius"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LT-vilnius",
+    "name": "Vilnius",
+    "country": "LT",
+    "firstLetter": "V",
+    "neighbors": [
+      "BY-hrodna",
+      "BY-vitsyebsk",
+      "LT-alytus",
+      "LT-kaunas",
+      "LT-panevezys",
+      "LT-utena"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-capellen",
+    "name": "Capellen",
+    "country": "LU",
+    "firstLetter": "C",
+    "neighbors": [
+      "BE-wallonia",
+      "LU-esch-sur-alzette",
+      "LU-luxembourg",
+      "LU-mersch",
+      "LU-redange"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-clervaux",
+    "name": "Clervaux",
+    "country": "LU",
+    "firstLetter": "C",
+    "neighbors": [
+      "BE-wallonia",
+      "LU-diekirch",
+      "LU-vianden",
+      "LU-wiltz"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-diekirch",
+    "name": "Diekirch",
+    "country": "LU",
+    "firstLetter": "D",
+    "neighbors": [
+      "LU-clervaux",
+      "LU-echternach",
+      "LU-mersch",
+      "LU-redange",
+      "LU-vianden",
+      "LU-wiltz"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-echternach",
+    "name": "Echternach",
+    "country": "LU",
+    "firstLetter": "E",
+    "neighbors": [
+      "DE-rhineland-palatinate",
+      "LU-diekirch",
+      "LU-grevenmacher",
+      "LU-mersch"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-esch-sur-alzette",
+    "name": "Esch-sur-Alzette",
+    "country": "LU",
+    "firstLetter": "E",
+    "neighbors": [
+      "BE-wallonia",
+      "FR-grand-est",
+      "LU-capellen",
+      "LU-luxembourg",
+      "LU-remich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-grevenmacher",
+    "name": "Grevenmacher",
+    "country": "LU",
+    "firstLetter": "G",
+    "neighbors": [
+      "DE-rhineland-palatinate",
+      "LU-echternach",
+      "LU-luxembourg",
+      "LU-mersch",
+      "LU-remich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-luxembourg",
+    "name": "Luxembourg",
+    "country": "LU",
+    "firstLetter": "L",
+    "neighbors": [
+      "LU-capellen",
+      "LU-esch-sur-alzette",
+      "LU-grevenmacher",
+      "LU-mersch",
+      "LU-remich"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-mersch",
+    "name": "Mersch",
+    "country": "LU",
+    "firstLetter": "M",
+    "neighbors": [
+      "LU-capellen",
+      "LU-diekirch",
+      "LU-echternach",
+      "LU-grevenmacher",
+      "LU-luxembourg",
+      "LU-redange"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-redange",
+    "name": "Redange",
+    "country": "LU",
+    "firstLetter": "R",
+    "neighbors": [
+      "BE-wallonia",
+      "LU-capellen",
+      "LU-diekirch",
+      "LU-mersch",
+      "LU-wiltz"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-remich",
+    "name": "Remich",
+    "country": "LU",
+    "firstLetter": "R",
+    "neighbors": [
+      "DE-rhineland-palatinate",
+      "FR-grand-est",
+      "LU-esch-sur-alzette",
+      "LU-grevenmacher",
+      "LU-luxembourg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-vianden",
+    "name": "Vianden",
+    "country": "LU",
+    "firstLetter": "V",
+    "neighbors": [
+      "LU-clervaux",
+      "LU-diekirch"
+    ],
+    "flag": null
+  },
+  {
+    "id": "LU-wiltz",
+    "name": "Wiltz",
+    "country": "LU",
+    "firstLetter": "W",
+    "neighbors": [
+      "BE-wallonia",
+      "LU-clervaux",
+      "LU-diekirch",
+      "LU-redange"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-anenii-noi",
+    "name": "Anenii Noi",
+    "country": "MD",
+    "firstLetter": "A",
+    "neighbors": [
+      "MD-causeni",
+      "MD-chisinau",
+      "MD-criuleni",
+      "MD-ialoveni",
+      "MD-tighina",
+      "MD-unitatea-teritoriala-din-stinga-nistrului"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-balti",
+    "name": "Bălţi",
+    "country": "MD",
+    "firstLetter": "B",
+    "neighbors": [
+      "MD-falesti",
+      "MD-glodeni",
+      "MD-riscani",
+      "MD-singerei"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-basarabeasca",
+    "name": "Basarabeasca",
+    "country": "MD",
+    "firstLetter": "B",
+    "neighbors": [
+      "MD-cimislia",
+      "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-briceni",
+    "name": "Briceni",
+    "country": "MD",
+    "firstLetter": "B",
+    "neighbors": [
+      "MD-edinet",
+      "MD-ocnita",
+      "UA-chernivtsi"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-cahul",
+    "name": "Cahul",
+    "country": "MD",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-cantemir",
+      "MD-taraclia",
+      "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+      "RO-galati",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-calarasi",
+    "name": "Călăraşi",
+    "country": "MD",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-nisporeni",
+      "MD-orhei",
+      "MD-straseni",
+      "MD-telenesti",
+      "MD-ungheni"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-cantemir",
+    "name": "Cantemir",
+    "country": "MD",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-cahul",
+      "MD-leova",
+      "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+      "RO-galati",
+      "RO-vaslui"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-causeni",
+    "name": "Căuşeni",
+    "country": "MD",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-anenii-noi",
+      "MD-cimislia",
+      "MD-ialoveni",
+      "MD-stefan-voda",
+      "MD-tighina",
+      "MD-unitatea-teritoriala-din-stinga-nistrului",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-chisinau",
+    "name": "Chişinău",
+    "country": "MD",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-anenii-noi",
+      "MD-criuleni",
+      "MD-dubasari",
+      "MD-ialoveni",
+      "MD-straseni"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-cimislia",
+    "name": "Cimişlia",
+    "country": "MD",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-basarabeasca",
+      "MD-causeni",
+      "MD-hincesti",
+      "MD-ialoveni",
+      "MD-leova",
+      "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-criuleni",
+    "name": "Criuleni",
+    "country": "MD",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-anenii-noi",
+      "MD-chisinau",
+      "MD-dubasari",
+      "MD-orhei",
+      "MD-straseni",
+      "MD-unitatea-teritoriala-din-stinga-nistrului"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-donduseni",
+    "name": "Donduşeni",
+    "country": "MD",
+    "firstLetter": "D",
+    "neighbors": [
+      "MD-drochia",
+      "MD-edinet",
+      "MD-ocnita",
+      "MD-riscani",
+      "MD-soroca",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-drochia",
+    "name": "Drochia",
+    "country": "MD",
+    "firstLetter": "D",
+    "neighbors": [
+      "MD-donduseni",
+      "MD-floresti",
+      "MD-riscani",
+      "MD-singerei",
+      "MD-soroca"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-dubasari",
+    "name": "Dubăsari",
+    "country": "MD",
+    "firstLetter": "D",
+    "neighbors": [
+      "MD-chisinau",
+      "MD-criuleni",
+      "MD-orhei",
+      "MD-unitatea-teritoriala-din-stinga-nistrului",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-edinet",
+    "name": "Edineţ",
+    "country": "MD",
+    "firstLetter": "E",
+    "neighbors": [
+      "MD-briceni",
+      "MD-donduseni",
+      "MD-ocnita",
+      "MD-riscani",
+      "RO-botosani"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-falesti",
+    "name": "Făleşti",
+    "country": "MD",
+    "firstLetter": "F",
+    "neighbors": [
+      "MD-balti",
+      "MD-glodeni",
+      "MD-singerei",
+      "MD-ungheni",
+      "RO-iasi"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-floresti",
+    "name": "Floreşti",
+    "country": "MD",
+    "firstLetter": "F",
+    "neighbors": [
+      "MD-drochia",
+      "MD-singerei",
+      "MD-soldanesti",
+      "MD-soroca",
+      "MD-telenesti",
+      "MD-unitatea-teritoriala-din-stinga-nistrului"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-glodeni",
+    "name": "Glodeni",
+    "country": "MD",
+    "firstLetter": "G",
+    "neighbors": [
+      "MD-balti",
+      "MD-falesti",
+      "MD-riscani",
+      "RO-botosani"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-hincesti",
+    "name": "Hînceşti",
+    "country": "MD",
+    "firstLetter": "H",
+    "neighbors": [
+      "MD-cimislia",
+      "MD-ialoveni",
+      "MD-leova",
+      "MD-nisporeni",
+      "MD-straseni",
+      "RO-iasi",
+      "RO-vaslui"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-ialoveni",
+    "name": "Ialoveni",
+    "country": "MD",
+    "firstLetter": "I",
+    "neighbors": [
+      "MD-anenii-noi",
+      "MD-causeni",
+      "MD-chisinau",
+      "MD-cimislia",
+      "MD-hincesti",
+      "MD-straseni"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-leova",
+    "name": "Leova",
+    "country": "MD",
+    "firstLetter": "L",
+    "neighbors": [
+      "MD-cantemir",
+      "MD-cimislia",
+      "MD-hincesti",
+      "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+      "RO-vaslui"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-nisporeni",
+    "name": "Nisporeni",
+    "country": "MD",
+    "firstLetter": "N",
+    "neighbors": [
+      "MD-calarasi",
+      "MD-hincesti",
+      "MD-straseni",
+      "MD-ungheni",
+      "RO-iasi"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-ocnita",
+    "name": "Ocniţa",
+    "country": "MD",
+    "firstLetter": "O",
+    "neighbors": [
+      "MD-briceni",
+      "MD-donduseni",
+      "MD-edinet",
+      "UA-chernivtsi",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-orhei",
+    "name": "Orhei",
+    "country": "MD",
+    "firstLetter": "O",
+    "neighbors": [
+      "MD-calarasi",
+      "MD-criuleni",
+      "MD-dubasari",
+      "MD-rezina",
+      "MD-straseni",
+      "MD-telenesti",
+      "MD-unitatea-teritoriala-din-stinga-nistrului"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-rezina",
+    "name": "Rezina",
+    "country": "MD",
+    "firstLetter": "R",
+    "neighbors": [
+      "MD-orhei",
+      "MD-soldanesti",
+      "MD-telenesti",
+      "MD-unitatea-teritoriala-din-stinga-nistrului"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-riscani",
+    "name": "Rîşcani",
+    "country": "MD",
+    "firstLetter": "R",
+    "neighbors": [
+      "MD-balti",
+      "MD-donduseni",
+      "MD-drochia",
+      "MD-edinet",
+      "MD-glodeni",
+      "MD-singerei",
+      "RO-botosani"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-singerei",
+    "name": "Sîngerei",
+    "country": "MD",
+    "firstLetter": "S",
+    "neighbors": [
+      "MD-balti",
+      "MD-drochia",
+      "MD-falesti",
+      "MD-floresti",
+      "MD-riscani",
+      "MD-telenesti",
+      "MD-ungheni"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-soldanesti",
+    "name": "Şoldăneşti",
+    "country": "MD",
+    "firstLetter": "S",
+    "neighbors": [
+      "MD-floresti",
+      "MD-rezina",
+      "MD-telenesti",
+      "MD-unitatea-teritoriala-din-stinga-nistrului"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-soroca",
+    "name": "Soroca",
+    "country": "MD",
+    "firstLetter": "S",
+    "neighbors": [
+      "MD-donduseni",
+      "MD-drochia",
+      "MD-floresti",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-stefan-voda",
+    "name": "Ştefan Vodă",
+    "country": "MD",
+    "firstLetter": "S",
+    "neighbors": [
+      "MD-causeni",
+      "MD-unitatea-teritoriala-din-stinga-nistrului",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-straseni",
+    "name": "Străşeni",
+    "country": "MD",
+    "firstLetter": "S",
+    "neighbors": [
+      "MD-calarasi",
+      "MD-chisinau",
+      "MD-criuleni",
+      "MD-hincesti",
+      "MD-ialoveni",
+      "MD-nisporeni",
+      "MD-orhei"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-taraclia",
+    "name": "Taraclia",
+    "country": "MD",
+    "firstLetter": "T",
+    "neighbors": [
+      "MD-cahul",
+      "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-telenesti",
+    "name": "Teleneşti",
+    "country": "MD",
+    "firstLetter": "T",
+    "neighbors": [
+      "MD-calarasi",
+      "MD-floresti",
+      "MD-orhei",
+      "MD-rezina",
+      "MD-singerei",
+      "MD-soldanesti",
+      "MD-ungheni"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-tighina",
+    "name": "Tighina",
+    "country": "MD",
+    "firstLetter": "T",
+    "neighbors": [
+      "MD-anenii-noi",
+      "MD-causeni",
+      "MD-unitatea-teritoriala-din-stinga-nistrului"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-ungheni",
+    "name": "Ungheni",
+    "country": "MD",
+    "firstLetter": "U",
+    "neighbors": [
+      "MD-calarasi",
+      "MD-falesti",
+      "MD-nisporeni",
+      "MD-singerei",
+      "MD-telenesti",
+      "RO-iasi"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+    "name": "Unitatea Teritorială Autonomă Găgăuzia (UTAG)",
+    "country": "MD",
+    "firstLetter": "U",
+    "neighbors": [
+      "MD-basarabeasca",
+      "MD-cahul",
+      "MD-cantemir",
+      "MD-cimislia",
+      "MD-leova",
+      "MD-taraclia",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "MD-unitatea-teritoriala-din-stinga-nistrului",
+    "name": "Unitatea Teritorială din Stînga Nistrului",
+    "country": "MD",
+    "firstLetter": "U",
+    "neighbors": [
+      "MD-anenii-noi",
+      "MD-causeni",
+      "MD-criuleni",
+      "MD-dubasari",
+      "MD-floresti",
+      "MD-orhei",
+      "MD-rezina",
+      "MD-soldanesti",
+      "MD-stefan-voda",
+      "MD-tighina",
+      "UA-odessa",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-drenthe",
+    "name": "Drenthe",
+    "country": "NL",
+    "firstLetter": "D",
+    "neighbors": [
+      "DE-lower-saxony",
+      "NL-fryslan",
+      "NL-groningen",
+      "NL-overijssel"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-flevoland",
+    "name": "Flevoland",
+    "country": "NL",
+    "firstLetter": "F",
+    "neighbors": [
+      "NL-fryslan",
+      "NL-overijssel"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-fryslan",
+    "name": "Fryslân",
+    "country": "NL",
+    "firstLetter": "F",
+    "neighbors": [
+      "NL-drenthe",
+      "NL-flevoland",
+      "NL-groningen",
+      "NL-overijssel"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-gelderland",
+    "name": "Gelderland",
+    "country": "NL",
+    "firstLetter": "G",
+    "neighbors": [
+      "DE-north-rhine-westphalia",
+      "NL-limburg",
+      "NL-noord-brabant",
+      "NL-overijssel",
+      "NL-utrecht",
+      "NL-zuid-holland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-groningen",
+    "name": "Groningen",
+    "country": "NL",
+    "firstLetter": "G",
+    "neighbors": [
+      "DE-lower-saxony",
+      "NL-drenthe",
+      "NL-fryslan"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-limburg",
+    "name": "Limburg",
+    "country": "NL",
+    "firstLetter": "L",
+    "neighbors": [
+      "BE-flanders",
+      "BE-wallonia",
+      "DE-north-rhine-westphalia",
+      "NL-gelderland",
+      "NL-noord-brabant"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-noord-brabant",
+    "name": "Noord-Brabant",
+    "country": "NL",
+    "firstLetter": "N",
+    "neighbors": [
+      "BE-flanders",
+      "NL-gelderland",
+      "NL-limburg",
+      "NL-zeeland",
+      "NL-zuid-holland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-noord-holland",
+    "name": "Noord-Holland",
+    "country": "NL",
+    "firstLetter": "N",
+    "neighbors": [
+      "NL-utrecht",
+      "NL-zuid-holland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-overijssel",
+    "name": "Overijssel",
+    "country": "NL",
+    "firstLetter": "O",
+    "neighbors": [
+      "DE-lower-saxony",
+      "DE-north-rhine-westphalia",
+      "NL-drenthe",
+      "NL-flevoland",
+      "NL-fryslan",
+      "NL-gelderland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-utrecht",
+    "name": "Utrecht",
+    "country": "NL",
+    "firstLetter": "U",
+    "neighbors": [
+      "NL-gelderland",
+      "NL-noord-holland",
+      "NL-zuid-holland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-zeeland",
+    "name": "Zeeland",
+    "country": "NL",
+    "firstLetter": "Z",
+    "neighbors": [
+      "BE-flanders",
+      "NL-noord-brabant"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NL-zuid-holland",
+    "name": "Zuid-Holland",
+    "country": "NL",
+    "firstLetter": "Z",
+    "neighbors": [
+      "NL-gelderland",
+      "NL-noord-brabant",
+      "NL-noord-holland",
+      "NL-utrecht"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-akershus",
+    "name": "Akershus",
+    "country": "NO",
+    "firstLetter": "A",
+    "neighbors": [
+      "NO-buskerud",
+      "NO-hedmark",
+      "NO-oppland",
+      "NO-oslo",
+      "NO-stfold",
+      "SE-varmland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-aust-agder",
+    "name": "Aust-Agder",
+    "country": "NO",
+    "firstLetter": "A",
+    "neighbors": [
+      "NO-rogaland",
+      "NO-telemark",
+      "NO-vest-agder"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-buskerud",
+    "name": "Buskerud",
+    "country": "NO",
+    "firstLetter": "B",
+    "neighbors": [
+      "NO-akershus",
+      "NO-hordaland",
+      "NO-oppland",
+      "NO-oslo",
+      "NO-sogn-og-fjordane",
+      "NO-telemark",
+      "NO-vestfold"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-finnmark",
+    "name": "Finnmark",
+    "country": "NO",
+    "firstLetter": "F",
+    "neighbors": [
+      "FI-lapland",
+      "NO-troms"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-hedmark",
+    "name": "Hedmark",
+    "country": "NO",
+    "firstLetter": "H",
+    "neighbors": [
+      "NO-akershus",
+      "NO-oppland",
+      "NO-tr-ndelag",
+      "SE-dalarna",
+      "SE-jamtland",
+      "SE-varmland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-hordaland",
+    "name": "Hordaland",
+    "country": "NO",
+    "firstLetter": "H",
+    "neighbors": [
+      "NO-buskerud",
+      "NO-rogaland",
+      "NO-sogn-og-fjordane",
+      "NO-telemark"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-m-re-og-romsdal",
+    "name": "Møre og Romsdal",
+    "country": "NO",
+    "firstLetter": "M",
+    "neighbors": [
+      "NO-oppland",
+      "NO-sogn-og-fjordane",
+      "NO-tr-ndelag"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-nordland",
+    "name": "Nordland\n",
+    "country": "NO",
+    "firstLetter": "N",
+    "neighbors": [
+      "NO-tr-ndelag",
+      "NO-troms",
+      "SE-norrbotten",
+      "SE-vasterbotten"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-oppland",
+    "name": "Oppland",
+    "country": "NO",
+    "firstLetter": "O",
+    "neighbors": [
+      "NO-akershus",
+      "NO-buskerud",
+      "NO-hedmark",
+      "NO-m-re-og-romsdal",
+      "NO-oslo",
+      "NO-sogn-og-fjordane",
+      "NO-tr-ndelag"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-oslo",
+    "name": "Oslo",
+    "country": "NO",
+    "firstLetter": "O",
+    "neighbors": [
+      "NO-akershus",
+      "NO-buskerud",
+      "NO-oppland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-stfold",
+    "name": "Østfold",
+    "country": "NO",
+    "firstLetter": "Ø",
+    "neighbors": [
+      "NO-akershus",
+      "SE-varmland",
+      "SE-vastra-gotaland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-rogaland",
+    "name": "Rogaland",
+    "country": "NO",
+    "firstLetter": "R",
+    "neighbors": [
+      "NO-aust-agder",
+      "NO-hordaland",
+      "NO-telemark",
+      "NO-vest-agder"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-sogn-og-fjordane",
+    "name": "Sogn og Fjordane",
+    "country": "NO",
+    "firstLetter": "S",
+    "neighbors": [
+      "NO-buskerud",
+      "NO-hordaland",
+      "NO-m-re-og-romsdal",
+      "NO-oppland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-telemark",
+    "name": "Telemark",
+    "country": "NO",
+    "firstLetter": "T",
+    "neighbors": [
+      "NO-aust-agder",
+      "NO-buskerud",
+      "NO-hordaland",
+      "NO-rogaland",
+      "NO-vestfold"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-troms",
+    "name": "Troms",
+    "country": "NO",
+    "firstLetter": "T",
+    "neighbors": [
+      "FI-lapland",
+      "NO-finnmark",
+      "NO-nordland",
+      "SE-norrbotten"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-tr-ndelag",
+    "name": "Trøndelag",
+    "country": "NO",
+    "firstLetter": "T",
+    "neighbors": [
+      "NO-hedmark",
+      "NO-m-re-og-romsdal",
+      "NO-nordland",
+      "NO-oppland",
+      "SE-jamtland",
+      "SE-vasterbotten"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-vest-agder",
+    "name": "Vest-Agder",
+    "country": "NO",
+    "firstLetter": "V",
+    "neighbors": [
+      "NO-aust-agder",
+      "NO-rogaland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "NO-vestfold",
+    "name": "Vestfold",
+    "country": "NO",
+    "firstLetter": "V",
+    "neighbors": [
+      "NO-buskerud",
+      "NO-telemark"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-dolnoslaskie",
+    "name": "Dolnośląskie",
+    "country": "PL",
+    "firstLetter": "D",
+    "neighbors": [
+      "CZ-kralovehradecky",
+      "CZ-liberecky",
+      "CZ-olomoucky",
+      "CZ-pardubicky",
+      "DE-saxony",
+      "PL-lubuskie",
+      "PL-opolskie",
+      "PL-wielkopolskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-kujawsko-pomorskie",
+    "name": "Kujawsko-Pomorskie",
+    "country": "PL",
+    "firstLetter": "K",
+    "neighbors": [
+      "PL-mazowieckie",
+      "PL-odzkie",
+      "PL-pomorskie",
+      "PL-warminsko-mazurskie",
+      "PL-wielkopolskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-odzkie",
+    "name": "Łódzkie",
+    "country": "PL",
+    "firstLetter": "Ł",
+    "neighbors": [
+      "PL-kujawsko-pomorskie",
+      "PL-mazowieckie",
+      "PL-opolskie",
+      "PL-slaskie",
+      "PL-swietokrzyskie",
+      "PL-wielkopolskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-lubelskie",
+    "name": "Lubelskie",
+    "country": "PL",
+    "firstLetter": "L",
+    "neighbors": [
+      "BY-brest",
+      "PL-mazowieckie",
+      "PL-podkarpackie",
+      "PL-podlaskie",
+      "PL-swietokrzyskie",
+      "UA-lviv",
+      "UA-volyn"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-lubuskie",
+    "name": "Lubuskie",
+    "country": "PL",
+    "firstLetter": "L",
+    "neighbors": [
+      "DE-brandenburg",
+      "DE-saxony",
+      "PL-dolnoslaskie",
+      "PL-wielkopolskie",
+      "PL-zachodniopomorskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-ma-opolskie",
+    "name": "Małopolskie",
+    "country": "PL",
+    "firstLetter": "M",
+    "neighbors": [
+      "PL-podkarpackie",
+      "PL-slaskie",
+      "PL-swietokrzyskie",
+      "SK-presovsky",
+      "SK-zilinsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-mazowieckie",
+    "name": "Mazowieckie",
+    "country": "PL",
+    "firstLetter": "M",
+    "neighbors": [
+      "PL-kujawsko-pomorskie",
+      "PL-lubelskie",
+      "PL-odzkie",
+      "PL-podlaskie",
+      "PL-swietokrzyskie",
+      "PL-warminsko-mazurskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-opolskie",
+    "name": "Opolskie",
+    "country": "PL",
+    "firstLetter": "O",
+    "neighbors": [
+      "CZ-moravskoslezsky",
+      "CZ-olomoucky",
+      "PL-dolnoslaskie",
+      "PL-odzkie",
+      "PL-slaskie",
+      "PL-wielkopolskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-podkarpackie",
+    "name": "Podkarpackie",
+    "country": "PL",
+    "firstLetter": "P",
+    "neighbors": [
+      "PL-lubelskie",
+      "PL-ma-opolskie",
+      "PL-swietokrzyskie",
+      "SK-presovsky",
+      "UA-lviv",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-podlaskie",
+    "name": "Podlaskie",
+    "country": "PL",
+    "firstLetter": "P",
+    "neighbors": [
+      "BY-brest",
+      "BY-hrodna",
+      "LT-alytus",
+      "LT-marijampole",
+      "PL-lubelskie",
+      "PL-mazowieckie",
+      "PL-warminsko-mazurskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-pomorskie",
+    "name": "Pomorskie",
+    "country": "PL",
+    "firstLetter": "P",
+    "neighbors": [
+      "PL-kujawsko-pomorskie",
+      "PL-warminsko-mazurskie",
+      "PL-wielkopolskie",
+      "PL-zachodniopomorskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-slaskie",
+    "name": "Śląskie",
+    "country": "PL",
+    "firstLetter": "S",
+    "neighbors": [
+      "CZ-moravskoslezsky",
+      "PL-ma-opolskie",
+      "PL-odzkie",
+      "PL-opolskie",
+      "PL-swietokrzyskie",
+      "SK-zilinsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-swietokrzyskie",
+    "name": "Świętokrzyskie",
+    "country": "PL",
+    "firstLetter": "S",
+    "neighbors": [
+      "PL-lubelskie",
+      "PL-ma-opolskie",
+      "PL-mazowieckie",
+      "PL-odzkie",
+      "PL-podkarpackie",
+      "PL-slaskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-warminsko-mazurskie",
+    "name": "Warmińsko-Mazurskie",
+    "country": "PL",
+    "firstLetter": "W",
+    "neighbors": [
+      "PL-kujawsko-pomorskie",
+      "PL-mazowieckie",
+      "PL-podlaskie",
+      "PL-pomorskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-wielkopolskie",
+    "name": "Wielkopolskie",
+    "country": "PL",
+    "firstLetter": "W",
+    "neighbors": [
+      "PL-dolnoslaskie",
+      "PL-kujawsko-pomorskie",
+      "PL-lubuskie",
+      "PL-odzkie",
+      "PL-opolskie",
+      "PL-pomorskie",
+      "PL-zachodniopomorskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "PL-zachodniopomorskie",
+    "name": "Zachodniopomorskie",
+    "country": "PL",
+    "firstLetter": "Z",
+    "neighbors": [
+      "DE-brandenburg",
+      "DE-mecklenburg-western-pomerania",
+      "PL-lubuskie",
+      "PL-pomorskie",
+      "PL-wielkopolskie"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-alba",
+    "name": "Alba",
+    "country": "RO",
+    "firstLetter": "A",
+    "neighbors": [
+      "RO-arad",
+      "RO-bihor",
+      "RO-cluj",
+      "RO-hunedoara",
+      "RO-mures",
+      "RO-sibiu",
+      "RO-valcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-arad",
+    "name": "Arad",
+    "country": "RO",
+    "firstLetter": "A",
+    "neighbors": [
+      "HU-bekes",
+      "HU-csongrad-csanad",
+      "RO-alba",
+      "RO-bihor",
+      "RO-hunedoara",
+      "RO-timis"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-arges",
+    "name": "Argeş",
+    "country": "RO",
+    "firstLetter": "A",
+    "neighbors": [
+      "RO-brasov",
+      "RO-dambovita",
+      "RO-olt",
+      "RO-sibiu",
+      "RO-teleorman",
+      "RO-valcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-bacau",
+    "name": "Bacău",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "RO-covasna",
+      "RO-harghita",
+      "RO-neamt",
+      "RO-vaslui",
+      "RO-vrancea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-bihor",
+    "name": "Bihor",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "HU-bekes",
+      "HU-hajdu-bihar",
+      "HU-szabolcs-szatmar-bereg",
+      "RO-alba",
+      "RO-arad",
+      "RO-cluj",
+      "RO-salaj",
+      "RO-satu-mare"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-bistrita-nasaud",
+    "name": "Bistriţa-Năsăud",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "RO-cluj",
+      "RO-maramures",
+      "RO-mures",
+      "RO-suceava"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-botosani",
+    "name": "Botoşani",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "MD-edinet",
+      "MD-glodeni",
+      "MD-riscani",
+      "RO-iasi",
+      "RO-suceava",
+      "UA-chernivtsi"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-braila",
+    "name": "Brăila",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "RO-buzau",
+      "RO-constanta",
+      "RO-galati",
+      "RO-ialomita",
+      "RO-tulcea",
+      "RO-vrancea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-brasov",
+    "name": "Braşov",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "RO-arges",
+      "RO-buzau",
+      "RO-covasna",
+      "RO-dambovita",
+      "RO-harghita",
+      "RO-mures",
+      "RO-prahova",
+      "RO-sibiu"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-bucuresti",
+    "name": "București",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "RO-ilfov"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-buzau",
+    "name": "Buzău",
+    "country": "RO",
+    "firstLetter": "B",
+    "neighbors": [
+      "RO-braila",
+      "RO-brasov",
+      "RO-covasna",
+      "RO-ialomita",
+      "RO-prahova",
+      "RO-vrancea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-calarasi",
+    "name": "Călăraşi",
+    "country": "RO",
+    "firstLetter": "C",
+    "neighbors": [
+      "BG-silistra",
+      "RO-constanta",
+      "RO-giurgiu",
+      "RO-ialomita",
+      "RO-ilfov"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-caras-severin",
+    "name": "Caraş-Severin",
+    "country": "RO",
+    "firstLetter": "C",
+    "neighbors": [
+      "RO-gorj",
+      "RO-hunedoara",
+      "RO-mehedinti",
+      "RO-timis"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-cluj",
+    "name": "Cluj",
+    "country": "RO",
+    "firstLetter": "C",
+    "neighbors": [
+      "RO-alba",
+      "RO-bihor",
+      "RO-bistrita-nasaud",
+      "RO-maramures",
+      "RO-mures",
+      "RO-salaj"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-constanta",
+    "name": "Constanţa",
+    "country": "RO",
+    "firstLetter": "C",
+    "neighbors": [
+      "BG-dobrich",
+      "BG-silistra",
+      "RO-braila",
+      "RO-calarasi",
+      "RO-ialomita",
+      "RO-tulcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-covasna",
+    "name": "Covasna",
+    "country": "RO",
+    "firstLetter": "C",
+    "neighbors": [
+      "RO-bacau",
+      "RO-brasov",
+      "RO-buzau",
+      "RO-harghita",
+      "RO-vrancea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-dambovita",
+    "name": "Dâmboviţa",
+    "country": "RO",
+    "firstLetter": "D",
+    "neighbors": [
+      "RO-arges",
+      "RO-brasov",
+      "RO-giurgiu",
+      "RO-ilfov",
+      "RO-prahova",
+      "RO-teleorman"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-dolj",
+    "name": "Dolj",
+    "country": "RO",
+    "firstLetter": "D",
+    "neighbors": [
+      "BG-montana",
+      "BG-vidin",
+      "BG-vratsa",
+      "RO-gorj",
+      "RO-mehedinti",
+      "RO-olt",
+      "RO-valcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-galati",
+    "name": "Galaţi",
+    "country": "RO",
+    "firstLetter": "G",
+    "neighbors": [
+      "MD-cahul",
+      "MD-cantemir",
+      "RO-braila",
+      "RO-tulcea",
+      "RO-vaslui",
+      "RO-vrancea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-giurgiu",
+    "name": "Giurgiu",
+    "country": "RO",
+    "firstLetter": "G",
+    "neighbors": [
+      "BG-ruse",
+      "BG-silistra",
+      "RO-calarasi",
+      "RO-dambovita",
+      "RO-ilfov",
+      "RO-teleorman"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-gorj",
+    "name": "Gorj",
+    "country": "RO",
+    "firstLetter": "G",
+    "neighbors": [
+      "RO-caras-severin",
+      "RO-dolj",
+      "RO-hunedoara",
+      "RO-mehedinti",
+      "RO-valcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-harghita",
+    "name": "Harghita",
+    "country": "RO",
+    "firstLetter": "H",
+    "neighbors": [
+      "RO-bacau",
+      "RO-brasov",
+      "RO-covasna",
+      "RO-mures",
+      "RO-neamt",
+      "RO-suceava"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-hunedoara",
+    "name": "Hunedoara",
+    "country": "RO",
+    "firstLetter": "H",
+    "neighbors": [
+      "RO-alba",
+      "RO-arad",
+      "RO-caras-severin",
+      "RO-gorj",
+      "RO-timis",
+      "RO-valcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-ialomita",
+    "name": "Ialomiţa",
+    "country": "RO",
+    "firstLetter": "I",
+    "neighbors": [
+      "RO-braila",
+      "RO-buzau",
+      "RO-calarasi",
+      "RO-constanta",
+      "RO-ilfov",
+      "RO-prahova"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-iasi",
+    "name": "Iaşi",
+    "country": "RO",
+    "firstLetter": "I",
+    "neighbors": [
+      "MD-falesti",
+      "MD-hincesti",
+      "MD-nisporeni",
+      "MD-ungheni",
+      "RO-botosani",
+      "RO-neamt",
+      "RO-suceava",
+      "RO-vaslui"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-ilfov",
+    "name": "Ilfov",
+    "country": "RO",
+    "firstLetter": "I",
+    "neighbors": [
+      "RO-bucuresti",
+      "RO-calarasi",
+      "RO-dambovita",
+      "RO-giurgiu",
+      "RO-ialomita",
+      "RO-prahova"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-maramures",
+    "name": "Maramureş",
+    "country": "RO",
+    "firstLetter": "M",
+    "neighbors": [
+      "RO-bistrita-nasaud",
+      "RO-cluj",
+      "RO-salaj",
+      "RO-satu-mare",
+      "RO-suceava",
+      "UA-chernivtsi",
+      "UA-ivano-frankivsk",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-mehedinti",
+    "name": "Mehedinţi",
+    "country": "RO",
+    "firstLetter": "M",
+    "neighbors": [
+      "BG-vidin",
+      "RO-caras-severin",
+      "RO-dolj",
+      "RO-gorj"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-mures",
+    "name": "Mureş",
+    "country": "RO",
+    "firstLetter": "M",
+    "neighbors": [
+      "RO-alba",
+      "RO-bistrita-nasaud",
+      "RO-brasov",
+      "RO-cluj",
+      "RO-harghita",
+      "RO-sibiu",
+      "RO-suceava"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-neamt",
+    "name": "Neamţ",
+    "country": "RO",
+    "firstLetter": "N",
+    "neighbors": [
+      "RO-bacau",
+      "RO-harghita",
+      "RO-iasi",
+      "RO-suceava",
+      "RO-vaslui"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-olt",
+    "name": "Olt",
+    "country": "RO",
+    "firstLetter": "O",
+    "neighbors": [
+      "BG-pleven",
+      "BG-vratsa",
+      "RO-arges",
+      "RO-dolj",
+      "RO-teleorman",
+      "RO-valcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-prahova",
+    "name": "Prahova",
+    "country": "RO",
+    "firstLetter": "P",
+    "neighbors": [
+      "RO-brasov",
+      "RO-buzau",
+      "RO-dambovita",
+      "RO-ialomita",
+      "RO-ilfov"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-salaj",
+    "name": "Sălaj",
+    "country": "RO",
+    "firstLetter": "S",
+    "neighbors": [
+      "RO-bihor",
+      "RO-cluj",
+      "RO-maramures",
+      "RO-satu-mare"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-satu-mare",
+    "name": "Satu Mare",
+    "country": "RO",
+    "firstLetter": "S",
+    "neighbors": [
+      "HU-szabolcs-szatmar-bereg",
+      "RO-bihor",
+      "RO-maramures",
+      "RO-salaj",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-sibiu",
+    "name": "Sibiu",
+    "country": "RO",
+    "firstLetter": "S",
+    "neighbors": [
+      "RO-alba",
+      "RO-arges",
+      "RO-brasov",
+      "RO-mures",
+      "RO-valcea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-suceava",
+    "name": "Suceava",
+    "country": "RO",
+    "firstLetter": "S",
+    "neighbors": [
+      "RO-bistrita-nasaud",
+      "RO-botosani",
+      "RO-harghita",
+      "RO-iasi",
+      "RO-maramures",
+      "RO-mures",
+      "RO-neamt",
+      "UA-chernivtsi"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-teleorman",
+    "name": "Teleorman",
+    "country": "RO",
+    "firstLetter": "T",
+    "neighbors": [
+      "BG-pleven",
+      "BG-ruse",
+      "BG-veliko-tarnovo",
+      "RO-arges",
+      "RO-dambovita",
+      "RO-giurgiu",
+      "RO-olt"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-timis",
+    "name": "Timiş",
+    "country": "RO",
+    "firstLetter": "T",
+    "neighbors": [
+      "HU-csongrad-csanad",
+      "RO-arad",
+      "RO-caras-severin",
+      "RO-hunedoara"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-tulcea",
+    "name": "Tulcea",
+    "country": "RO",
+    "firstLetter": "T",
+    "neighbors": [
+      "RO-braila",
+      "RO-constanta",
+      "RO-galati",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-valcea",
+    "name": "Vâlcea",
+    "country": "RO",
+    "firstLetter": "V",
+    "neighbors": [
+      "RO-alba",
+      "RO-arges",
+      "RO-dolj",
+      "RO-gorj",
+      "RO-hunedoara",
+      "RO-olt",
+      "RO-sibiu"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-vaslui",
+    "name": "Vaslui",
+    "country": "RO",
+    "firstLetter": "V",
+    "neighbors": [
+      "MD-cantemir",
+      "MD-hincesti",
+      "MD-leova",
+      "RO-bacau",
+      "RO-galati",
+      "RO-iasi",
+      "RO-neamt",
+      "RO-vrancea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "RO-vrancea",
+    "name": "Vrancea",
+    "country": "RO",
+    "firstLetter": "V",
+    "neighbors": [
+      "RO-bacau",
+      "RO-braila",
+      "RO-buzau",
+      "RO-covasna",
+      "RO-galati",
+      "RO-vaslui"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-blekinge",
+    "name": "Blekinge",
+    "country": "SE",
+    "firstLetter": "B",
+    "neighbors": [
+      "SE-kalmar",
+      "SE-kronoberg",
+      "SE-skane"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-dalarna",
+    "name": "Dalarna",
+    "country": "SE",
+    "firstLetter": "D",
+    "neighbors": [
+      "NO-hedmark",
+      "SE-gavleborg",
+      "SE-jamtland",
+      "SE-orebro",
+      "SE-varmland",
+      "SE-vastmanland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-gavleborg",
+    "name": "Gävleborg",
+    "country": "SE",
+    "firstLetter": "G",
+    "neighbors": [
+      "SE-dalarna",
+      "SE-jamtland",
+      "SE-uppsala",
+      "SE-vasternorrland",
+      "SE-vastmanland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-gotland",
+    "name": "Gotland",
+    "country": "SE",
+    "firstLetter": "G",
+    "neighbors": [],
+    "flag": null
+  },
+  {
+    "id": "SE-halland",
+    "name": "Halland",
+    "country": "SE",
+    "firstLetter": "H",
+    "neighbors": [
+      "SE-jonkoping",
+      "SE-kronoberg",
+      "SE-skane",
+      "SE-vastra-gotaland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-jamtland",
+    "name": "Jämtland",
+    "country": "SE",
+    "firstLetter": "J",
+    "neighbors": [
+      "NO-hedmark",
+      "NO-tr-ndelag",
+      "SE-dalarna",
+      "SE-gavleborg",
+      "SE-vasterbotten",
+      "SE-vasternorrland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-jonkoping",
+    "name": "Jönköping",
+    "country": "SE",
+    "firstLetter": "J",
+    "neighbors": [
+      "SE-halland",
+      "SE-kalmar",
+      "SE-kronoberg",
+      "SE-ostergotland",
+      "SE-vastra-gotaland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-kalmar",
+    "name": "Kalmar",
+    "country": "SE",
+    "firstLetter": "K",
+    "neighbors": [
+      "SE-blekinge",
+      "SE-jonkoping",
+      "SE-kronoberg",
+      "SE-ostergotland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-kronoberg",
+    "name": "Kronoberg",
+    "country": "SE",
+    "firstLetter": "K",
+    "neighbors": [
+      "SE-blekinge",
+      "SE-halland",
+      "SE-jonkoping",
+      "SE-kalmar",
+      "SE-skane"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-norrbotten",
+    "name": "Norrbotten",
+    "country": "SE",
+    "firstLetter": "N",
+    "neighbors": [
+      "FI-lapland",
+      "NO-nordland",
+      "NO-troms",
+      "SE-vasterbotten"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-orebro",
+    "name": "Örebro",
+    "country": "SE",
+    "firstLetter": "O",
+    "neighbors": [
+      "SE-dalarna",
+      "SE-ostergotland",
+      "SE-sodermanland",
+      "SE-varmland",
+      "SE-vastmanland",
+      "SE-vastra-gotaland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-ostergotland",
+    "name": "Östergötland",
+    "country": "SE",
+    "firstLetter": "O",
+    "neighbors": [
+      "SE-jonkoping",
+      "SE-kalmar",
+      "SE-orebro",
+      "SE-sodermanland",
+      "SE-vastra-gotaland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-skane",
+    "name": "Skåne",
+    "country": "SE",
+    "firstLetter": "S",
+    "neighbors": [
+      "SE-blekinge",
+      "SE-halland",
+      "SE-kronoberg"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-sodermanland",
+    "name": "Södermanland",
+    "country": "SE",
+    "firstLetter": "S",
+    "neighbors": [
+      "SE-orebro",
+      "SE-ostergotland",
+      "SE-stockholm",
+      "SE-vastmanland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-stockholm",
+    "name": "Stockholm",
+    "country": "SE",
+    "firstLetter": "S",
+    "neighbors": [
+      "SE-sodermanland",
+      "SE-uppsala"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-uppsala",
+    "name": "Uppsala",
+    "country": "SE",
+    "firstLetter": "U",
+    "neighbors": [
+      "SE-gavleborg",
+      "SE-stockholm",
+      "SE-vastmanland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-varmland",
+    "name": "Värmland",
+    "country": "SE",
+    "firstLetter": "V",
+    "neighbors": [
+      "NO-akershus",
+      "NO-hedmark",
+      "NO-stfold",
+      "SE-dalarna",
+      "SE-orebro",
+      "SE-vastra-gotaland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-vasterbotten",
+    "name": "Västerbotten",
+    "country": "SE",
+    "firstLetter": "V",
+    "neighbors": [
+      "NO-nordland",
+      "NO-tr-ndelag",
+      "SE-jamtland",
+      "SE-norrbotten",
+      "SE-vasternorrland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-vasternorrland",
+    "name": "Västernorrland",
+    "country": "SE",
+    "firstLetter": "V",
+    "neighbors": [
+      "SE-gavleborg",
+      "SE-jamtland",
+      "SE-vasterbotten"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-vastmanland",
+    "name": "Västmanland",
+    "country": "SE",
+    "firstLetter": "V",
+    "neighbors": [
+      "SE-dalarna",
+      "SE-gavleborg",
+      "SE-orebro",
+      "SE-sodermanland",
+      "SE-uppsala"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SE-vastra-gotaland",
+    "name": "Västra Götaland",
+    "country": "SE",
+    "firstLetter": "V",
+    "neighbors": [
+      "NO-stfold",
+      "SE-halland",
+      "SE-jonkoping",
+      "SE-orebro",
+      "SE-ostergotland",
+      "SE-varmland"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-banskobystricky",
+    "name": "Banskobystrický",
+    "country": "SK",
+    "firstLetter": "B",
+    "neighbors": [
+      "HU-borsod-abauj-zemplen",
+      "HU-nograd",
+      "SK-kosicky",
+      "SK-nitriansky",
+      "SK-presovsky",
+      "SK-trenciansky",
+      "SK-zilinsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-bratislavsky",
+    "name": "Bratislavský",
+    "country": "SK",
+    "firstLetter": "B",
+    "neighbors": [
+      "AT-burgenland",
+      "AT-lower-austria",
+      "HU-gyor-moson-sopron",
+      "SK-trnavsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-kosicky",
+    "name": "Košický",
+    "country": "SK",
+    "firstLetter": "K",
+    "neighbors": [
+      "HU-borsod-abauj-zemplen",
+      "HU-szabolcs-szatmar-bereg",
+      "SK-banskobystricky",
+      "SK-presovsky",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-nitriansky",
+    "name": "Nitriansky",
+    "country": "SK",
+    "firstLetter": "N",
+    "neighbors": [
+      "HU-komarom-esztergom",
+      "HU-nograd",
+      "HU-pest",
+      "SK-banskobystricky",
+      "SK-trenciansky",
+      "SK-trnavsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-presovsky",
+    "name": "Prešovský",
+    "country": "SK",
+    "firstLetter": "P",
+    "neighbors": [
+      "PL-ma-opolskie",
+      "PL-podkarpackie",
+      "SK-banskobystricky",
+      "SK-kosicky",
+      "SK-zilinsky",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-trenciansky",
+    "name": "Trenčiansky",
+    "country": "SK",
+    "firstLetter": "T",
+    "neighbors": [
+      "CZ-jihomoravsky",
+      "CZ-zlinsky",
+      "SK-banskobystricky",
+      "SK-nitriansky",
+      "SK-trnavsky",
+      "SK-zilinsky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-trnavsky",
+    "name": "Trnavský",
+    "country": "SK",
+    "firstLetter": "T",
+    "neighbors": [
+      "AT-lower-austria",
+      "CZ-jihomoravsky",
+      "HU-gyor-moson-sopron",
+      "SK-bratislavsky",
+      "SK-nitriansky",
+      "SK-trenciansky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "SK-zilinsky",
+    "name": "Žilinský",
+    "country": "SK",
+    "firstLetter": "Z",
+    "neighbors": [
+      "CZ-moravskoslezsky",
+      "CZ-zlinsky",
+      "PL-ma-opolskie",
+      "PL-slaskie",
+      "SK-banskobystricky",
+      "SK-presovsky",
+      "SK-trenciansky"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-cherkasy",
+    "name": "Cherkasy",
+    "country": "UA",
+    "firstLetter": "C",
+    "neighbors": [
+      "UA-kirovohrad",
+      "UA-kyiv",
+      "UA-poltava",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-chernihiv",
+    "name": "Chernihiv",
+    "country": "UA",
+    "firstLetter": "C",
+    "neighbors": [
+      "BY-homyel",
+      "UA-kyiv",
+      "UA-poltava",
+      "UA-sumy"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-chernivtsi",
+    "name": "Chernivtsi",
+    "country": "UA",
+    "firstLetter": "C",
+    "neighbors": [
+      "MD-briceni",
+      "MD-ocnita",
+      "RO-botosani",
+      "RO-maramures",
+      "RO-suceava",
+      "UA-ivano-frankivsk",
+      "UA-khmelnytskyi",
+      "UA-ternopil",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-crimea",
+    "name": "Crimea",
+    "country": "UA",
+    "firstLetter": "C",
+    "neighbors": [
+      "UA-kherson",
+      "UA-sevastopol"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-dnipropetrovsk",
+    "name": "Dnipropetrovsk",
+    "country": "UA",
+    "firstLetter": "D",
+    "neighbors": [
+      "UA-donetsk",
+      "UA-kharkiv",
+      "UA-kherson",
+      "UA-kirovohrad",
+      "UA-mykolaiv",
+      "UA-poltava",
+      "UA-zaporizhzhya"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-donetsk",
+    "name": "Donetsk",
+    "country": "UA",
+    "firstLetter": "D",
+    "neighbors": [
+      "UA-dnipropetrovsk",
+      "UA-kharkiv",
+      "UA-luhansk",
+      "UA-zaporizhzhya"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-ivano-frankivsk",
+    "name": "Ivano-Frankivsk",
+    "country": "UA",
+    "firstLetter": "I",
+    "neighbors": [
+      "RO-maramures",
+      "UA-chernivtsi",
+      "UA-lviv",
+      "UA-ternopil",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-kharkiv",
+    "name": "Kharkiv",
+    "country": "UA",
+    "firstLetter": "K",
+    "neighbors": [
+      "UA-dnipropetrovsk",
+      "UA-donetsk",
+      "UA-luhansk",
+      "UA-poltava",
+      "UA-sumy"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-kherson",
+    "name": "Kherson",
+    "country": "UA",
+    "firstLetter": "K",
+    "neighbors": [
+      "UA-crimea",
+      "UA-dnipropetrovsk",
+      "UA-mykolaiv",
+      "UA-zaporizhzhya"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-khmelnytskyi",
+    "name": "Khmelnytskyi",
+    "country": "UA",
+    "firstLetter": "K",
+    "neighbors": [
+      "UA-chernivtsi",
+      "UA-rivne",
+      "UA-ternopil",
+      "UA-vinnytsia",
+      "UA-zhytomyr"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-kirovohrad",
+    "name": "Kirovohrad",
+    "country": "UA",
+    "firstLetter": "K",
+    "neighbors": [
+      "UA-cherkasy",
+      "UA-dnipropetrovsk",
+      "UA-mykolaiv",
+      "UA-odessa",
+      "UA-poltava",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-kyiv",
+    "name": "Kyiv",
+    "country": "UA",
+    "firstLetter": "K",
+    "neighbors": [
+      "BY-homyel",
+      "UA-cherkasy",
+      "UA-chernihiv",
+      "UA-kyiv-city",
+      "UA-poltava",
+      "UA-vinnytsia",
+      "UA-zhytomyr"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-kyiv-city",
+    "name": "Kyiv City",
+    "country": "UA",
+    "firstLetter": "K",
+    "neighbors": [
+      "UA-kyiv"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-luhansk",
+    "name": "Luhansk",
+    "country": "UA",
+    "firstLetter": "L",
+    "neighbors": [
+      "UA-donetsk",
+      "UA-kharkiv"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-lviv",
+    "name": "Lviv",
+    "country": "UA",
+    "firstLetter": "L",
+    "neighbors": [
+      "PL-lubelskie",
+      "PL-podkarpackie",
+      "UA-ivano-frankivsk",
+      "UA-rivne",
+      "UA-ternopil",
+      "UA-volyn",
+      "UA-zakarpattia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-mykolaiv",
+    "name": "Mykolaiv",
+    "country": "UA",
+    "firstLetter": "M",
+    "neighbors": [
+      "UA-dnipropetrovsk",
+      "UA-kherson",
+      "UA-kirovohrad",
+      "UA-odessa"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-odessa",
+    "name": "Odessa",
+    "country": "UA",
+    "firstLetter": "O",
+    "neighbors": [
+      "MD-basarabeasca",
+      "MD-cahul",
+      "MD-causeni",
+      "MD-cimislia",
+      "MD-dubasari",
+      "MD-stefan-voda",
+      "MD-taraclia",
+      "MD-unitatea-teritoriala-autonoma-gagauzia-utag",
+      "MD-unitatea-teritoriala-din-stinga-nistrului",
+      "RO-tulcea",
+      "UA-kirovohrad",
+      "UA-mykolaiv",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-poltava",
+    "name": "Poltava",
+    "country": "UA",
+    "firstLetter": "P",
+    "neighbors": [
+      "UA-cherkasy",
+      "UA-chernihiv",
+      "UA-dnipropetrovsk",
+      "UA-kharkiv",
+      "UA-kirovohrad",
+      "UA-kyiv",
+      "UA-sumy"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-rivne",
+    "name": "Rivne",
+    "country": "UA",
+    "firstLetter": "R",
+    "neighbors": [
+      "BY-brest",
+      "BY-homyel",
+      "UA-khmelnytskyi",
+      "UA-lviv",
+      "UA-ternopil",
+      "UA-volyn",
+      "UA-zhytomyr"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-sevastopol",
+    "name": "Sevastopol",
+    "country": "UA",
+    "firstLetter": "S",
+    "neighbors": [
+      "UA-crimea"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-sumy",
+    "name": "Sumy",
+    "country": "UA",
+    "firstLetter": "S",
+    "neighbors": [
+      "UA-chernihiv",
+      "UA-kharkiv",
+      "UA-poltava"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-ternopil",
+    "name": "Ternopil",
+    "country": "UA",
+    "firstLetter": "T",
+    "neighbors": [
+      "UA-chernivtsi",
+      "UA-ivano-frankivsk",
+      "UA-khmelnytskyi",
+      "UA-lviv",
+      "UA-rivne"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-vinnytsia",
+    "name": "Vinnytsia",
+    "country": "UA",
+    "firstLetter": "V",
+    "neighbors": [
+      "MD-donduseni",
+      "MD-ocnita",
+      "MD-soroca",
+      "MD-unitatea-teritoriala-din-stinga-nistrului",
+      "UA-cherkasy",
+      "UA-chernivtsi",
+      "UA-khmelnytskyi",
+      "UA-kirovohrad",
+      "UA-kyiv",
+      "UA-odessa",
+      "UA-zhytomyr"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-volyn",
+    "name": "Volyn",
+    "country": "UA",
+    "firstLetter": "V",
+    "neighbors": [
+      "BY-brest",
+      "PL-lubelskie",
+      "UA-lviv",
+      "UA-rivne"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-zakarpattia",
+    "name": "Zakarpattia",
+    "country": "UA",
+    "firstLetter": "Z",
+    "neighbors": [
+      "HU-szabolcs-szatmar-bereg",
+      "PL-podkarpackie",
+      "RO-maramures",
+      "RO-satu-mare",
+      "SK-kosicky",
+      "SK-presovsky",
+      "UA-ivano-frankivsk",
+      "UA-lviv"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-zaporizhzhya",
+    "name": "Zaporizhzhya",
+    "country": "UA",
+    "firstLetter": "Z",
+    "neighbors": [
+      "UA-dnipropetrovsk",
+      "UA-donetsk",
+      "UA-kherson"
+    ],
+    "flag": null
+  },
+  {
+    "id": "UA-zhytomyr",
+    "name": "Zhytomyr",
+    "country": "UA",
+    "firstLetter": "Z",
+    "neighbors": [
+      "BY-homyel",
+      "UA-khmelnytskyi",
+      "UA-kyiv",
+      "UA-rivne",
+      "UA-vinnytsia"
+    ],
+    "flag": null
+  }
+]

@@ -1,0 +1,93 @@
+.game-map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+  overflow: hidden;
+  background: radial-gradient(120% 120% at 50% 0%, #dff0fb 0%, #bfe0f4 55%, #a9d3ec 100%);
+  font-family: system-ui, sans-serif;
+}
+
+.game-map-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  touch-action: none;
+}
+.game-map-svg:active { cursor: grabbing; }
+
+/* Plain land. Thin internal borders separate subdivisions. */
+.region {
+  fill: #e9e4d8;
+  stroke: #b7ac95;
+  stroke-width: 0.6;
+  stroke-linejoin: round;
+  transition: fill 0.12s ease;
+}
+.region.is-hover {
+  fill: #ffce54;
+  stroke: #5b5340;
+  stroke-width: 1.2;
+}
+
+.map-tooltip {
+  position: fixed;
+  transform: translate(14px, 14px);
+  pointer-events: none;
+  z-index: 20;
+  background: rgba(28, 33, 48, 0.92);
+  color: #fff;
+  padding: 4px 9px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.map-loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #355;
+}
+
+.map-controls-hint {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  font-size: 0.72rem;
+  color: #2a3b4d;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 3px 8px;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+/* Non-playable backdrop countries: muted, no interaction. */
+.region.is-context {
+  fill: #ded8c8;
+  stroke: #c7bfac;
+  stroke-width: 0.5;
+  pointer-events: none;
+}
+
+/* On-screen status / error overlay. */
+.map-status {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90%;
+  background: rgba(255,255,255,0.92);
+  color: #2a3b4d;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font: 13px/1.4 system-ui, sans-serif;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.map-status--error { color: #9b1c1c; }
+.map-status code { font-size: 12px; word-break: break-all; }
