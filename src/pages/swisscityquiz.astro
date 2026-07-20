@@ -1,0 +1,49 @@
+---
+const base = import.meta.env.BASE_URL; // may or may not have a trailing slash
+const assetBase = base.replace(/\/$/, "");
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Swiss City Quiz</title>
+    <link rel="stylesheet" href={`${assetBase}/swisscityquiz/styles.css`} />
+    <script is:inline src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="bar">
+        <input id="guess" type="text" placeholder="Name a Swiss city…" autocomplete="off" autofocus />
+        <button id="enter">Enter</button>
+      </div>
+      <svg id="map"></svg>
+      <p id="feedback">Enter a city in Switzerland to start the game!</p>
+
+      <section id="cities-section">
+        <h3>Cities</h3>
+        <div class="table-wrap">
+          <table id="cities-table">
+            <colgroup>
+              <col class="name" />
+              <col class="num" />
+              <col class="act" />
+            </colgroup>
+            <thead>
+              <tr><th>City</th><th class="num">Population</th><th aria-label="actions"></th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script is:inline define:vars={{ assetBase }}>
+      window.__SCQ_BASE__ = assetBase;
+    </script>
+    <script is:inline src={`${assetBase}/swisscityquiz/app.js`}></script>
+  </body>
+</html>
