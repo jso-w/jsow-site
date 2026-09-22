@@ -21,7 +21,7 @@ const plLines = plInflowBn
   .join(', ');
 
 export const hero = {
-  eyebrow: 'Interactive dashboard',
+  eyebrow: '',
   title: 'The big money in European football',
   subtitle:
     "Fifteen seasons of squad values, transfers and spending across Europe's top five leagues, 2010–2024",
@@ -30,7 +30,7 @@ export const hero = {
       'This dashboard tracks fifteen seasons of squad market values across the five largest ' +
       "European leagues: England's Premier League, Spain's La Liga, Germany's Bundesliga, " +
       "Italy's Serie A and France's Ligue 1.",
-    'The pages that follow explore data from Transfermarkt, the most comprehensive football ' +
+    'The following graphics explore data from Transfermarkt, the most comprehensive football ' +
       'database available, compare the leagues against one another, and trace how each of the ' +
       'five developed. The leagues were never level in 2010, and the lead at the top has grown ' +
       'visibly ever since.',
@@ -39,7 +39,7 @@ export const hero = {
     { value: String(kpis.n_seasons), label: 'Seasons analysed (2010–2024)' },
     { value: String(kpis.n_clubs), label: 'Clubs across the top five leagues' },
     { value: kpis.n_transfers_with_fee.toLocaleString('en-US'), label: 'Transfers considered' },
-    { value: `€${Math.round(kpis.total_fee_eur / 1e9)}bn`, label: 'Total transfer spend' },
+    { value: `€${Math.round(kpis.total_fee_eur / 1e9)}bn`, label: 'Total transfer spending' },
   ],
 };
 
