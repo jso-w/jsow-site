@@ -1,0 +1,12 @@
+---
+import { endCard } from '../../lib/footballmoney/narrative';
+---
+
+<section class="page page-end">
+  <div class="page-inner">
+    <div class="end-card">
+      <p class="kicker" set:html={endCard.kicker} />
+      <p class="end-meta">{endCard.meta}</p>
+    </div>
+  </div>
+</section>

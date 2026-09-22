@@ -1,0 +1,52 @@
+---
+import { LEAGUE_BADGE, LNAMES, TOP5, asset } from '../../lib/footballmoney/config';
+import { hero } from '../../lib/footballmoney/narrative';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<section class="page page-hero">
+  <div class="page-inner">
+    <div class="hero-content">
+      <p class="hero-eyebrow">{hero.eyebrow}</p>
+      <h1>{hero.title}</h1>
+      <p class="hero-subtitle">{hero.subtitle}</p>
+
+      <div class="league-logos">
+        {TOP5.map((lg) => (
+          <div class="league-badge">
+            <img src={asset(base, `logos/${LEAGUE_BADGE[lg]}`)} alt={LNAMES[lg]} width="76" height="76" />
+          </div>
+        ))}
+      </div>
+
+      {hero.intro.map((p) => <p class="hero-intro">{p}</p>)}
+
+      <div class="hero-source-row">
+        <a
+          class="hero-nav-btn tm-btn"
+          href="https://www.transfermarkt.com"
+          target="_blank"
+          rel="noopener"
+          title="Open Transfermarkt"
+        >
+          <img class="tm-logo-img" src={asset(base, 'logos/transfermarkt-logo.webp')} alt="Transfermarkt" width="22" height="22" />
+          <span class="hero-nav-text">
+            <span class="hero-nav-label">Data source</span>
+            <span class="hero-nav-sub">Transfermarkt</span>
+          </span>
+        </a>
+      </div>
+
+      <div class="kpi-row">
+        {hero.tiles.map((t) => (
+          <div class="kpi-card">
+            <span class="kpi-number">{t.value}</span>
+            <span class="kpi-label">{t.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint">Scroll<span>↓</span></div>
+</section>

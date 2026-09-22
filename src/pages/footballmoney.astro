@@ -1,0 +1,99 @@
+---
+import Deck from '../components/footballmoney/Deck.astro';
+import EndCard from '../components/footballmoney/EndCard.astro';
+import Hero from '../components/footballmoney/Hero.astro';
+import PlotlyChart from '../components/footballmoney/PlotlyChart';
+import Section from '../components/footballmoney/Section.astro';
+import '../components/footballmoney/deck.css';
+
+import { asset } from '../lib/footballmoney/config';
+import {
+  figCorrelation,
+  figNetBalance,
+  figRecordTransfers,
+  figSankey,
+  figSlopegraph,
+  figSquadValues,
+  figTop4Share,
+  figTopPlayers,
+  figTreemap,
+} from '../lib/footballmoney/figures';
+import { sections } from '../lib/footballmoney/narrative';
+
+const base = import.meta.env.BASE_URL;
+
+// Figures are built here, at build time, and shipped to the island as data.
+const figures = {
+  'squad-values': figSquadValues(),
+  treemap: figTreemap(),
+  sankey: figSankey(),
+  records: figRecordTransfers(base),
+  'net-balance': figNetBalance(),
+  'top-players': figTopPlayers(),
+  correlation: figCorrelation(),
+  'top4-share': figTop4Share(),
+  slopegraph: figSlopegraph(),
+} as const;
+
+const title = 'The big money in European football';
+const description =
+  "Fifteen seasons of squad market values, transfer flows and spending concentration across " +
+  "Europe's top five football leagues, 2010–2024.";
+const ogImage = asset(base, 'preview.webp');
+const canonical = new URL(`${base.replace(/\/$/, '')}/footballmoney`, Astro.site ?? 'https://jso-w.github.io');
+---
+
+<!doctype html>
+<html lang="en" class="fm-page">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+    <link rel="icon" type="image/svg+xml" href={`${base.replace(/\/$/, '')}/favicon.svg`} />
+    <link rel="icon" href={`${base.replace(/\/$/, '')}/favicon.ico`} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(ogImage, Astro.site ?? 'https://jso-w.github.io').href} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    />
+  </head>
+
+  <body>
+    <Deck>
+      <Hero />
+
+      {
+        sections.map((s) => (
+          <Section
+            label={s.label}
+            title={s.title}
+            story={s.story}
+            highlight={s.highlight}
+            highlightType={s.highlightType}
+            caption={s.caption}
+            chartHeight={figures[s.id as keyof typeof figures].layout.height as number}
+          >
+            <PlotlyChart
+              client:visible
+              figure={figures[s.id as keyof typeof figures]}
+              tvToggle={s.id === 'squad-values'}
+              ariaLabel={s.title}
+            />
+          </Section>
+        ))
+      }
+
+      <EndCard />
+    </Deck>
+  </body>
+</html>

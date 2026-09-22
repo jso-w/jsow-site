@@ -1,0 +1,37 @@
+---
+/** One deck page: narrative column on the left, chart column on the right. */
+interface Props {
+  label: string;
+  title: string;
+  story: string;
+  highlight?: string;
+  highlightType?: 'gold' | 'red';
+  caption?: string;
+  /** Reserves vertical space so the client-only chart doesn't shift layout. */
+  chartHeight?: number;
+}
+const {
+  label, title, story, highlight, highlightType = 'gold', caption, chartHeight = 620,
+} = Astro.props;
+---
+
+<section class="page">
+  <div class="page-inner spread">
+    <div class="col-text">
+      <p class="section-label">{label}</p>
+      <h2>{title}</h2>
+      <p class="story-text" set:html={story} />
+      {highlight && (
+        <div class={`highlight-box ${highlightType}`}>
+          <p set:html={highlight} />
+        </div>
+      )}
+    </div>
+    <div class="col-chart">
+      <div class="chart-slot" style={`min-height:${chartHeight}px`}>
+        <slot />
+      </div>
+      {caption && <div class="chart-caption">{caption}</div>}
+    </div>
+  </div>
+</section>
